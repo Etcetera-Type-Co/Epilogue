@@ -59291,6 +59291,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = ubreve.sc;
@@ -59351,6 +59352,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = ucaron.sc;
@@ -59411,6 +59413,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = ucircumflex.sc;
@@ -59471,6 +59474,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = udblgrave.sc;
@@ -59531,6 +59535,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = udieresis.sc;
@@ -59591,6 +59596,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = udieresisacute.sc;
@@ -59667,6 +59673,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = udieresiscaron.sc;
@@ -59743,6 +59750,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = udieresisgrave.sc;
@@ -59819,6 +59827,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = udieresismacron.sc;
@@ -59895,6 +59904,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = udotbelow.sc;
@@ -59955,6 +59965,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = ugrave.sc;
@@ -60015,6 +60026,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = uhookabove.sc;
@@ -60075,6 +60087,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = uhorn.sc;
@@ -60135,6 +60148,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = T;
+changeCount = 1;
 },
 {
 glyphname = uhornacute.sc;
@@ -60195,6 +60209,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = T;
+changeCount = 1;
 },
 {
 glyphname = uhorndotbelow.sc;
@@ -60255,6 +60270,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = T;
+changeCount = 1;
 },
 {
 glyphname = uhorngrave.sc;
@@ -60315,6 +60331,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = T;
+changeCount = 1;
 },
 {
 glyphname = uhornhookabove.sc;
@@ -60375,6 +60392,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = T;
+changeCount = 1;
 },
 {
 glyphname = uhorntilde.sc;
@@ -60435,6 +60453,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = T;
+changeCount = 1;
 },
 {
 glyphname = uhungarumlaut.sc;
@@ -60495,6 +60514,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = uinvertedbreve.sc;
@@ -60555,6 +60575,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = umacron.sc;
@@ -60615,6 +60636,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = umacrondieresis.sc;
@@ -60691,6 +60713,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = uogonek.sc;
@@ -60751,6 +60774,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = uring.sc;
@@ -60811,6 +60835,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = utilde.sc;
@@ -60871,6 +60896,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = utildeacute.sc;
@@ -60947,6 +60973,7 @@ width = 1020;
 );
 leftKerningGroup = U;
 rightKerningGroup = U;
+changeCount = 1;
 },
 {
 glyphname = v.sc;
@@ -66310,6 +66337,7 @@ leftMetricsKey = one.dnom;
 rightKerningGroup = onesuperior;
 rightMetricsKey = one.dnom;
 unicode = 2081;
+changeCount = 1;
 },
 {
 glyphname = twoinferior;
@@ -66357,6 +66385,7 @@ leftMetricsKey = two.dnom;
 rightKerningGroup = twosuperior;
 rightMetricsKey = two.dnom;
 unicode = 2082;
+changeCount = 1;
 },
 {
 glyphname = threeinferior;
@@ -66404,6 +66433,7 @@ leftMetricsKey = three.dnom;
 rightKerningGroup = threesuperior;
 rightMetricsKey = three.dnom;
 unicode = 2083;
+changeCount = 1;
 },
 {
 glyphname = fourinferior;
@@ -66545,6 +66575,7 @@ leftMetricsKey = six.dnom;
 rightKerningGroup = sixsuperior;
 rightMetricsKey = six.dnom;
 unicode = 2086;
+changeCount = 1;
 },
 {
 glyphname = seveninferior;
@@ -66639,6 +66670,7 @@ leftMetricsKey = eight.dnom;
 rightKerningGroup = eightsuperior;
 rightMetricsKey = eight.dnom;
 unicode = 2088;
+changeCount = 1;
 },
 {
 glyphname = nineinferior;
@@ -66686,6 +66718,7 @@ leftMetricsKey = nine.dnom;
 rightKerningGroup = ninesuperior;
 rightMetricsKey = nine.dnom;
 unicode = 2089;
+changeCount = 1;
 },
 {
 glyphname = zero.dnom;
@@ -66786,6 +66819,7 @@ leftKerningGroup = onesuperior;
 leftMetricsKey = onesuperior;
 rightKerningGroup = onesuperior;
 rightMetricsKey = onesuperior;
+changeCount = 1;
 },
 {
 glyphname = two.dnom;
@@ -66836,6 +66870,7 @@ leftKerningGroup = twosuperior;
 leftMetricsKey = twosuperior;
 rightKerningGroup = twosuperior;
 rightMetricsKey = twosuperior;
+changeCount = 1;
 },
 {
 glyphname = three.dnom;
@@ -66886,6 +66921,7 @@ leftKerningGroup = threesuperior;
 leftMetricsKey = threesuperior;
 rightKerningGroup = threesuperior;
 rightMetricsKey = threesuperior;
+changeCount = 1;
 },
 {
 glyphname = four.dnom;
@@ -67036,6 +67072,7 @@ leftKerningGroup = sixsuperior;
 leftMetricsKey = sixsuperior;
 rightKerningGroup = sixsuperior;
 rightMetricsKey = sixsuperior;
+changeCount = 1;
 },
 {
 glyphname = seven.dnom;
@@ -67136,6 +67173,7 @@ leftKerningGroup = eightsuperior;
 leftMetricsKey = eightsuperior;
 rightKerningGroup = eightsuperior;
 rightMetricsKey = eightsuperior;
+changeCount = 1;
 },
 {
 glyphname = nine.dnom;
@@ -67186,6 +67224,7 @@ leftKerningGroup = ninesuperior;
 leftMetricsKey = ninesuperior;
 rightKerningGroup = ninesuperior;
 rightMetricsKey = ninesuperior;
+changeCount = 1;
 },
 {
 glyphname = zero.numr;
@@ -69492,6 +69531,7 @@ leftMetricsKey = one.numr;
 rightKerningGroup = one.numr;
 rightMetricsKey = one.numr;
 unicode = 00BD;
+changeCount = 1;
 },
 {
 glyphname = onequarter;
@@ -69571,6 +69611,7 @@ leftMetricsKey = one.numr;
 rightKerningGroup = one.numr;
 rightMetricsKey = one.numr;
 unicode = 00BC;
+changeCount = 1;
 },
 {
 glyphname = threequarters;
@@ -69650,6 +69691,7 @@ leftMetricsKey = three.numr;
 rightKerningGroup = three.numr;
 rightMetricsKey = three.numr;
 unicode = 00BE;
+changeCount = 1;
 },
 {
 glyphname = oneeighth;
@@ -69727,6 +69769,7 @@ width = 1502;
 leftMetricsKey = one.numr;
 rightMetricsKey = one.numr;
 unicode = 215B;
+changeCount = 1;
 },
 {
 glyphname = threeeighths;
@@ -69804,6 +69847,7 @@ width = 1720;
 leftMetricsKey = three.numr;
 rightMetricsKey = three.numr;
 unicode = 215C;
+changeCount = 1;
 },
 {
 glyphname = fiveeighths;
@@ -69881,6 +69925,7 @@ width = 1627;
 leftMetricsKey = five.numr;
 rightMetricsKey = five.numr;
 unicode = 215D;
+changeCount = 1;
 },
 {
 glyphname = seveneighths;
@@ -69958,6 +70003,7 @@ width = 1512;
 leftMetricsKey = seven.numr;
 rightMetricsKey = seven.numr;
 unicode = 215E;
+changeCount = 1;
 },
 {
 glyphname = period;
