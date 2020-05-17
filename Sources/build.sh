@@ -1,24 +1,15 @@
 #!/bin/sh
 set -e
 
-echo "Generating Fonts"
-mkdir -p ./fonts/static/ttf
-fontmake -g Sources/Epilogue.glyphs -i --family-name "Epilogue" -o ttf --output-dir ./fonts/static/ttf/
 
-mkdir -p ./fonts/static/otf
-fontmake -g Sources/Epilogue.glyphs -i --family-name "Epilogue" -o otf --output-dir ./fonts/static/otf/
-
-mkdir -p ./fonts/variable
-fontmake -g Sources/Epilogue.glyphs -o variable --output-path ./fonts/variable/Epilogue[slnt,wght].ttf
-
-statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/Epilogue.designspace ./fonts/variable/Epilogue\[slnt\,wght\].ttf
-
-rm -rf master_ufo/ instance_ufo/
+echo "Generating Static fonts"
+mkdir -p ./fonts ./fonts/static/ttf ./fonts/static/otf ./fonts/variable
+fontmake -g Sources/Epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
+fontmake -g Sources/Epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
 
 
-
-# ============================================================================
-# Autohinting ================================================================
+echo "Generating Variable Font"
+fontmake -g Sources/Epilogue.glyphs --family-name 'Epilogue' -o variable  --output-path ./fonts/variable/Epilogue[slnt,wght].ttf
 
 
 echo "Post processing TTFs"
@@ -27,9 +18,9 @@ for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
 	ttfautohint $ttf $ttf.fix
-	mv "$ttf.fix" $ttf;
+	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 	gftools fix-hinting $ttf
-	mv "$ttf.fix" $ttf;
+	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 done
 
 echo "Post processing OTFs"
@@ -41,25 +32,18 @@ done
 
 
 
-# ============================================================================
-# Build woff2 fonts ==========================================================
-# requires https://github.com/bramstein/homebrew-webfonttools
-
+echo "Building webfonts"
 rm -rf ./fonts/web/woff2
 ttfs=$(ls ./fonts/static/ttf/*.ttf)
 for ttf in $ttfs; do
     woff2_compress $ttf
 done
-
 mkdir -p ./fonts/web/woff2
 woff2s=$(ls ./fonts/static/*/*.woff2)
 for woff2 in $woff2s; do
     mv $woff2 ./fonts/web/woff2/$(basename $woff2)
 done
-# ============================================================================
-# Build woff fonts ==========================================================
-# requires https://github.com/bramstein/homebrew-webfonttools
-
+#########
 rm -rf ./fonts/web/woff
 ttfs=$(ls ./fonts/static/ttf/*.ttf)
 for ttf in $ttfs; do
@@ -72,28 +56,32 @@ for woff in $woffs; do
     mv $woff ./fonts/web/woff/$(basename $woff)
 done
 
-woff2_compress ./fonts/variable/Epilogue[slnt,wght].ttf
-
 
 
 
 
 echo "Post processing VFs"
 
-vfs=$(ls ./fonts/variable/*.ttf)
-for vf in $vfs
-do
-	gftools fix-dsig -f $vf;
-	gftools fix-nonhinting $vf "$vf.fix";
-	mv "$vf.fix" $vf;
-	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
-	rtrip=$(basename -s .ttf $vf)
-	new_file=./fonts/variable/$rtrip.ttx;
-	rm $vf;
-	ttx $new_file
-	rm ./fonts/variable/*.ttx
-done
+statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/Epilogue.designspace ./fonts/variable/Epilogue\[slnt\,wght\].ttf
 
-rm ./fonts/variable/*backup*.ttf
+vf=$(ls ./fonts/variable/*.ttf)
+
+# gftools fix-vf-meta $vf;  ------ currently unsupported for multi-axis fonts
+
+gftools fix-dsig --autofix $vf;
+gftools fix-unwanted-tables --tables MVAR $vf
+ttfautohint $vf $vf.fix
+mv $vf.fix $vf
+gftools fix-hinting $vf
+[ -f $vf.fix ] && mv $vf.fix $vf
+gftools fix-gasp $vf --autofix
+[ -f $vf.fix ] && mv $vf.fix $vf
+
+echo "Build Variable Webfont"
+woff2_compress ./fonts/variable/Epilogue[slnt,wght].ttf
+
+
+rm -rf master_ufo/ instance_ufo/
+
 
 echo "Complete!"
