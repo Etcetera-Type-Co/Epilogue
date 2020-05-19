@@ -18,10 +18,8 @@
           <string>Upright</string>
           <key>value</key>
           <integer>0</integer>
-        <!--    <key>linked_value</key>
-          <integer>0</integer>
           <key>flags</key>
-        <array><string>ElidableAxisValueName</string></array> -->
+        <array><string>ElidableAxisValueName</string></array>
        </dict>
 
         <dict>
@@ -198,6 +196,7 @@
           <key>Slant</key>
           <integer>0</integer>
         </dict>
+
       </dict>
 
 
@@ -337,6 +336,10 @@
           <key>Slant</key>
           <integer>-12</integer>
         </dict>
+        <key>flags</key>
+        <array>
+          <string>ElidableAxisValueName</string>
+        </array>
       </dict>
 
 
