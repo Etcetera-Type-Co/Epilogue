@@ -9,7 +9,7 @@ fontmake -g Sources/Epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
 
 
 echo "Generating Variable Font"
-fontmake -g Sources/Epilogue.glyphs --family-name 'Epilogue' -o variable  --output-path ./fonts/variable/Epilogue[slnt,wght].ttf
+fontmake -g Sources/Epilogue.glyphs --family-name 'Epilogue' -o variable  --output-path ./fonts/variable/Epilogue[ital,wght].ttf
 
 
 echo "Post processing TTFs"
@@ -62,7 +62,7 @@ done
 
 echo "Post processing VFs"
 
-statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/Epilogue.designspace ./fonts/variable/Epilogue\[slnt\,wght\].ttf
+statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/Epilogue.designspace ./fonts/variable/Epilogue\[ital\,wght\].ttf
 
 vf=$(ls ./fonts/variable/*.ttf)
 
@@ -78,7 +78,7 @@ gftools fix-gasp $vf --autofix
 [ -f $vf.fix ] && mv $vf.fix $vf
 
 echo "Build Variable Webfont"
-woff2_compress ./fonts/variable/Epilogue[slnt,wght].ttf
+woff2_compress ./fonts/variable/Epilogue[ital,wght].ttf
 
 
 rm -rf master_ufo/ instance_ufo/
