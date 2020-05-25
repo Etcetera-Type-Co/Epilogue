@@ -1,7 +1,7 @@
 {
 .appVersion = "1338";
 DisplayStrings = (
-"If/space ANYONE/space wishes/space to/space believe/space me/space a/space little/space loony/emdash which,/space might/space be/space possible,/space considering/space that/space I/space have/space quite/space intentionally/space made/space a/space considerable/space effort/space to/space insinuate/space that/space possibility/space indubitably/emdash may/space now/space consider/space the/space preceding/emdash as/space well/space as/space the/space following/emdash proof/space more/space or/space less/space conclusive./space Trust/space me/space on/space this.\012"
+"Abbygail/space Ability/space Abrupt/space Absolute/space Academy/space Accept/space Acquaint/space Action/space Adapt/space Adjunct/space Admirers/space Adverb/space Aegean/space Aeroport/space Aesthete/space Affable/space After/space Again/space Aggregate/space Agriculture/space Aha/space Alliteration/space Alpine/space Aluminum/space Always/space American/space Animal/space Anyway/space Aorta/space Aplomb/space Appear/space Apron/space Aqua/space Ardennes/space Arrange/space Asop/space Assimilate/space Assume/space Attitude/space Auction/space Average/space Avor/space Awesome/space Awful/space Awkward/space Axis/space Azureße\012cool/space gang/space ful/space fameous"
 );
 classes = (
 {
@@ -902,12 +902,13 @@ name = ss01;
 fontMaster = (
 {
 alignmentZones = (
-"{1563, 13}",
-"{1533, 45}",
-"{1475, 13}",
-"{1062, 13}",
-"{0, -17}",
-"{-437, -31}"
+"{1563, 16}",
+"{1475, 14}",
+"{1180, 20}",
+"{1062, 12}",
+"{1062, 12}",
+"{0, -18}",
+"{-467, -31}"
 );
 ascender = 1563;
 capHeight = 1475;
@@ -977,11 +978,12 @@ xHeight = 1062;
 },
 {
 alignmentZones = (
-"{1533, 35}",
-"{1475, 25}",
-"{1062, 22}",
-"{1062, 11}",
-"{0, -26}",
+"{1563, 15}",
+"{1475, 26}",
+"{1180, 20}",
+"{1062, 23}",
+"{1062, 23}",
+"{0, -27}",
 "{-467, -31}"
 );
 ascender = 1563;
@@ -1056,6 +1058,7 @@ alignmentZones = (
 "{1563, 13}",
 "{1533, 45}",
 "{1475, 13}",
+"{1180, 20}",
 "{1062, 13}",
 "{0, -17}",
 "{-437, -31}"
@@ -1129,11 +1132,12 @@ xHeight = 1062;
 },
 {
 alignmentZones = (
-"{1533, 35}",
-"{1475, 25}",
-"{1062, 22}",
-"{1062, 11}",
-"{0, -26}",
+"{1563, 15}",
+"{1475, 26}",
+"{1180, 20}",
+"{1062, 23}",
+"{1062, 23}",
+"{0, -27}",
 "{-467, -31}"
 );
 ascender = 1563;
@@ -25713,7 +25717,7 @@ unicode = 01C6;
 },
 {
 glyphname = e;
-lastChange = "2020-05-25 15:34:29 +0000";
+lastChange = "2020-05-25 16:05:27 +0000";
 layers = (
 {
 anchors = (
@@ -27424,7 +27428,7 @@ unicode = 0259;
 },
 {
 glyphname = f;
-lastChange = "2020-05-25 15:53:26 +0000";
+lastChange = "2020-05-25 16:07:46 +0000";
 layers = (
 {
 anchors = (
@@ -36146,7 +36150,7 @@ unicode = 00FE;
 },
 {
 glyphname = q;
-lastChange = "2020-05-25 15:30:06 +0000";
+lastChange = "2020-05-25 16:07:30 +0000";
 layers = (
 {
 anchors = (
@@ -39125,7 +39129,7 @@ unicode = 1E6F;
 },
 {
 glyphname = u;
-lastChange = "2020-05-25 15:19:03 +0000";
+lastChange = "2020-05-25 16:08:17 +0000";
 layers = (
 {
 anchors = (
@@ -41184,7 +41188,7 @@ unicode = 0076;
 },
 {
 glyphname = w;
-lastChange = "2020-05-25 15:30:06 +0000";
+lastChange = "2020-05-25 16:08:39 +0000";
 layers = (
 {
 anchors = (
@@ -97910,6 +97914,8 @@ kerning = {
 "@MMK_R_U" = -50;
 "@MMK_R_V" = -160;
 "@MMK_R_Y" = -200;
+"@MMK_R_f" = -50;
+"@MMK_R_o" = -20;
 "@MMK_R_quote" = -150;
 "@MMK_R_t" = -80;
 "@MMK_R_v" = -120;
@@ -98047,6 +98053,7 @@ kerning = {
 "@MMK_L_f" = {
 "@MMK_R_o" = -50;
 "@MMK_R_period" = -100;
+"@MMK_R_u" = -40;
 };
 "@MMK_L_g" = {
 "@MMK_R_o" = -70;
@@ -98056,8 +98063,12 @@ kerning = {
 "@MMK_R_T" = -200;
 "@MMK_R_Y" = -200;
 };
+"@MMK_L_i" = {
+"@MMK_R_o" = -50;
+};
 "@MMK_L_k" = {
 "@MMK_R_o" = -100;
+"@MMK_R_v" = -80;
 };
 "@MMK_L_o" = {
 "@MMK_R_f" = -20;
@@ -98104,6 +98115,8 @@ kerning = {
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -120;
 "@MMK_R_Y" = -200;
+"@MMK_R_f" = -20;
+"@MMK_R_o" = -10;
 "@MMK_R_quote" = -100;
 "@MMK_R_t" = -70;
 "@MMK_R_v" = -100;
@@ -98294,6 +98307,8 @@ kerning = {
 "@MMK_R_U" = -50;
 "@MMK_R_V" = -160;
 "@MMK_R_Y" = -200;
+"@MMK_R_f" = -50;
+"@MMK_R_o" = -20;
 "@MMK_R_quote" = -150;
 "@MMK_R_t" = -80;
 "@MMK_R_v" = -120;
@@ -98430,6 +98445,7 @@ kerning = {
 "@MMK_L_f" = {
 "@MMK_R_o" = -50;
 "@MMK_R_period" = -100;
+"@MMK_R_u" = -40;
 };
 "@MMK_L_g" = {
 "@MMK_R_o" = -70;
@@ -98438,8 +98454,12 @@ kerning = {
 "@MMK_R_H" = -150;
 "@MMK_R_Y" = -200;
 };
+"@MMK_L_i" = {
+"@MMK_R_o" = -50;
+};
 "@MMK_L_k" = {
 "@MMK_R_o" = -100;
+"@MMK_R_v" = -80;
 };
 "@MMK_L_o" = {
 "@MMK_R_f" = -20;
@@ -98485,6 +98505,8 @@ kerning = {
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -120;
 "@MMK_R_Y" = -200;
+"@MMK_R_f" = -20;
+"@MMK_R_o" = -10;
 "@MMK_R_quote" = -100;
 "@MMK_R_t" = -70;
 "@MMK_R_v" = -100;
