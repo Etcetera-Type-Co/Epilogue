@@ -4,8 +4,8 @@ set -e
 
 echo "Generating Static fonts"
 mkdir -p ./fonts ./fonts/static/ttf ./fonts/static/otf ./fonts/variable
-fontmake -g Sources/Epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
-fontmake -g Sources/Epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
+fontmake --overlaps-backend pathops -g Sources/Epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
+fontmake --overlaps-backend pathops -g Sources/Epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
 
 
 echo "Generating Variable Font"
