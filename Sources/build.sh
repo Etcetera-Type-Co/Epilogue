@@ -4,12 +4,12 @@ set -e
 
 echo "Generating Static fonts"
 mkdir -p ./fonts ./fonts/static/ttf ./fonts/static/otf ./fonts/variable
-fontmake --overlaps-backend pathops -g Sources/Epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
-fontmake --overlaps-backend pathops -g Sources/Epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
+fontmake --overlaps-backend pathops -g sources/Epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
+fontmake --overlaps-backend pathops -g sources/Epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
 
 
 echo "Generating Variable Font"
-fontmake -g Sources/Epilogue.glyphs --family-name 'Epilogue' -o variable  --output-path ./fonts/variable/Epilogue[ital,wght].ttf
+fontmake -g sources/Epilogue.glyphs --family-name 'Epilogue' -o variable  --output-path ./fonts/variable/Epilogue[ital,wght].ttf
 
 
 echo "Post processing TTFs"
@@ -62,7 +62,7 @@ done
 
 echo "Post processing VFs"
 
-statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/Epilogue.designspace ./fonts/variable/Epilogue\[ital\,wght\].ttf
+statmake --stylespace sources/stat.stylespace --designspace ./master_ufo/Epilogue.designspace ./fonts/variable/Epilogue\[ital\,wght\].ttf
 
 vf=$(ls ./fonts/variable/*.ttf)
 
