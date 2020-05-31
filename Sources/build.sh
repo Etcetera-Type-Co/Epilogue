@@ -1,15 +1,23 @@
 #!/bin/sh
 set -e
 
+echo "Converting .glyphs to .ufo"
+fontmake -g Sources/epilogue.glyphs -o ufo
 
 echo "Generating Static fonts"
 mkdir -p ./fonts ./fonts/static/ttf ./fonts/static/otf ./fonts/variable
-fontmake --overlaps-backend pathops -g sources/Epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
-fontmake --overlaps-backend pathops -g sources/Epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
+fontmake --overlaps-backend pathops -m ./master_ufo/epilogue.designspace -i -o ttf --output-dir ./fonts/static/ttf/
+fontmake --overlaps-backend pathops -m ./master_ufo/epilogue.designspace -i -o otf --output-dir ./fonts/static/otf/
+
+
 
 
 echo "Generating Variable Font"
-fontmake -g sources/Epilogue.glyphs --family-name 'Epilogue' -o variable  --output-path ./fonts/variable/Epilogue[ital,wght].ttf
+mkdir -p ./fonts/variable
+fontmake -m ./master_ufo/epilogue.designspace -o variable --output-path ./fonts/variable/Epilogue[ital,wght].ttf
+statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/epilogue.designspace ./fonts/variable/Epilogue\[ital\,wght\].ttf
+
+rm -rf master_ufo/ instance_ufo/
 
 
 echo "Post processing TTFs"
@@ -61,27 +69,16 @@ done
 
 
 echo "Post processing VFs"
-
-statmake --stylespace sources/stat.stylespace --designspace ./master_ufo/Epilogue.designspace ./fonts/variable/Epilogue\[ital\,wght\].ttf
-
-vf=$(ls ./fonts/variable/*.ttf)
-
-# gftools fix-vf-meta $vf;  ------ currently unsupported for multi-axis fonts
-
+vf=$(ls ./fonts/variable/Epilogue[ital,wght].ttf)
+gftools fix-nonhinting $vf $vf.fix
+mv $vf.fix $vf
 gftools fix-dsig --autofix $vf;
 gftools fix-unwanted-tables --tables MVAR $vf
-ttfautohint $vf $vf.fix
-mv $vf.fix $vf
-gftools fix-hinting $vf
-[ -f $vf.fix ] && mv $vf.fix $vf
-gftools fix-gasp $vf --autofix
-[ -f $vf.fix ] && mv $vf.fix $vf
 
-echo "Build Variable Webfont"
+rm ./fonts/variable/*gasp*
+
 woff2_compress ./fonts/variable/Epilogue[ital,wght].ttf
 
-
-rm -rf master_ufo/ instance_ufo/
 
 
 echo "Complete!"
