@@ -14,8 +14,8 @@ fontmake --overlaps-backend pathops -m ./master_ufo/epilogue.designspace -i -o o
 
 echo "Generating Variable Font"
 mkdir -p ./fonts/variable
-fontmake -m ./master_ufo/epilogue.designspace -o variable --output-path ./fonts/variable/Epilogue[ital,wght].ttf
-statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/epilogue.designspace ./fonts/variable/Epilogue\[ital\,wght\].ttf
+fontmake -m ./master_ufo/epilogue.designspace -o variable --output-path ./fonts/variable/Epilogue[slnt,wght].ttf
+statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/epilogue.designspace ./fonts/variable/Epilogue\[slnt\,wght\].ttf
 
 rm -rf master_ufo/ instance_ufo/
 
@@ -69,7 +69,7 @@ done
 
 
 echo "Post processing VFs"
-vf=$(ls ./fonts/variable/Epilogue[ital,wght].ttf)
+vf=$(ls ./fonts/variable/Epilogue[slnt,wght].ttf)
 gftools fix-nonhinting $vf $vf.fix
 mv $vf.fix $vf
 gftools fix-dsig --autofix $vf;
@@ -77,7 +77,7 @@ gftools fix-unwanted-tables --tables MVAR $vf
 
 rm ./fonts/variable/*gasp*
 
-woff2_compress ./fonts/variable/Epilogue[ital,wght].ttf
+woff2_compress ./fonts/variable/Epilogue[slnt,wght].ttf
 
 
 
