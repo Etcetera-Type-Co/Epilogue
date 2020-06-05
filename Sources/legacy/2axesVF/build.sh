@@ -1,21 +1,21 @@
 #!/bin/sh
 set -e
 
-
-
-mkdir -p ./fonts ./fonts/static/ttf ./fonts/static/otf ./fonts/variable
+echo "Converting .glyphs to .ufo"
+fontmake -g Sources/epilogue.glyphs -o ufo
 
 echo "Generating Static fonts"
-fontmake -g Sources/epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
-fontmake -g Sources/epilogue_italic.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
+mkdir -p ./fonts ./fonts/static/ttf ./fonts/static/otf ./fonts/variable
+fontmake --overlaps-backend pathops -m ./master_ufo/epilogue.designspace -i -o ttf --output-dir ./fonts/static/ttf/
+fontmake --overlaps-backend pathops -m ./master_ufo/epilogue.designspace -i -o otf --output-dir ./fonts/static/otf/
 
-fontmake -g Sources/epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
-fontmake -g Sources/epilogue_italic.glyphs -i -o otf --output-dir ./fonts/static/otf/
 
-echo "Generating VFs"
-fontmake -g Sources/epilogue.glyphs -o variable --output-path ./fonts/variable/Epilogue[wght].ttf
-fontmake -g Sources/epilogue_italic.glyphs -o variable --output-path ./fonts/variable/Epilogue-Italic[wght].ttf
 
+
+echo "Generating Variable Font"
+mkdir -p ./fonts/variable
+fontmake -m ./master_ufo/epilogue.designspace -o variable --output-path ./fonts/variable/Epilogue[slnt,wght].ttf
+statmake --stylespace Sources/stat.stylespace --designspace ./master_ufo/epilogue.designspace ./fonts/variable/Epilogue\[slnt\,wght\].ttf
 
 rm -rf master_ufo/ instance_ufo/
 
@@ -65,26 +65,19 @@ for woff in $woffs; do
 done
 
 
+
+
+
 echo "Post processing VFs"
-vfs=$(ls ./fonts/variable/*.ttf)
-for vf in $vfs
-do
-	gftools fix-dsig --autofix $vf;
-	gftools fix-nonhinting $vf "$vf.fix";
-	mv "$vf.fix" $vf;
-	gftools fix-unwanted-tables --tables MVAR $vf
+vf=$(ls ./fonts/variable/Epilogue[slnt,wght].ttf)
+gftools fix-nonhinting $vf $vf.fix
+mv $vf.fix $vf
+gftools fix-dsig --autofix $vf;
+gftools fix-unwanted-tables --tables MVAR $vf
 
-done
-
-
-gftools fix-vf-meta $vfs;
-for vf in $vfs
-do
-mv "$vf.fix" $vf;
-done
 rm ./fonts/variable/*gasp*
 
-
+woff2_compress ./fonts/variable/Epilogue[slnt,wght].ttf
 
 
 
