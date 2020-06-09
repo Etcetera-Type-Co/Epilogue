@@ -8,7 +8,7 @@ name = Uppercase;
 },
 {
 automatic = 1;
-code = "a a.ss01 aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adotbelow agrave ahookabove ainvertedbreve amacron aogonek aring aringacute atilde ae aeacute b c cacute ccaron ccedilla ccircumflex cdotaccent d eth dcaron dcroat dzcaron e eacute ebreve ecaron ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron eogonek etilde schwa f g g.ss01 gbreve gcaron gcircumflex gcommaaccent gdotaccent h hbar hcircumflex i idotless iacute ibreve icaron icircumflex idblgrave idieresis idotaccent idotbelow igrave ihookabove iinvertedbreve imacron iogonek itilde j jdotless jcircumflex k kcommaaccent kgreenlandic l l.ss01 lacute lcaron lcommaaccent ldot lj lslash m n nacute ncaron ncommaaccent eng nj ntilde o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron oogonek oslash oslashacute otilde otildemacron oe p thorn q r racute rcaron rcommaaccent rdblgrave rinvertedbreve s sacute scaron scedilla scircumflex scommaaccent germandbls t t.ss01 tbar tcaron tcedilla tcommaaccent u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent";
+code = "a a.ss01 aacute aacute.ss01 abreve abreve.ss01 abreveacute abreveacute.ss01 abrevedotbelow abrevedotbelow.ss01 abrevegrave abrevegrave.ss01 abrevehookabove abrevehookabove.ss01 abrevetilde abrevetilde.ss01 acaron acaron.ss01 acircumflex acircumflex.ss01 acircumflexacute acircumflexacute.ss01 acircumflexdotbelow acircumflexdotbelow.ss01 acircumflexgrave acircumflexgrave.ss01 acircumflexhookabove acircumflexhookabove.ss01 acircumflextilde acircumflextilde.ss01 adblgrave adblgrave.ss01 adieresis adieresis.ss01 adieresismacron adieresismacron.ss01 adotbelow adotbelow.ss01 agrave agrave.ss01 ahookabove ahookabove.ss01 ainvertedbreve ainvertedbreve.ss01 amacron amacron.ss01 aogonek aogonek.ss01 aring aring.ss01 aringacute aringacute.ss01 atilde atilde.ss01 ae aeacute b c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d eth dcaron dcroat ddotbelow dlinebelow dzcaron e eacute ebreve ecaron ecedilla ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa ezh ezhcaron f g g.ss01 gbreve gbreve.ss01 gcaron gcaron.ss01 gcircumflex gcircumflex.ss01 gcommaaccent gcommaaccent.ss01 gdotaccent gdotaccent.ss01 gmacron gmacron.ss01 gstroke h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve imacron iogonek itilde j jdotless jcircumflex k kcaron kcommaaccent kgreenlandic l l.ss01 lacute lacute.ss01 lcaron lcaron.ss01 lcommaaccent lcommaaccent.ss01 ldot ldot.ss01 ldotbelow ldotbelow.ss01 lj llinebelow llinebelow.ss01 lslash lslash.ss01 m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow eng nhookleft nj nlinebelow ntilde o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron oe p thorn q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent germandbls t t.ss01 tbar tbar.ss01 tcaron tcaron.ss01 tcedilla tcedilla.ss01 tcommaaccent tcommaaccent.ss01 tdieresis tdieresis.ss01 tdotbelow tdotbelow.ss01 tlinebelow tlinebelow.ss01 u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent zdotbelow";
 name = Lowercase;
 }
 );
@@ -70605,7 +70605,7 @@ unicode = 00A4;
 },
 {
 glyphname = dollar;
-lastChange = "2020-06-08 13:28:48 +0000";
+lastChange = "2020-06-09 18:55:45 +0000";
 layers = (
 {
 components = (
@@ -70640,10 +70640,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"535 0 LINE",
-"690 0 LINE",
-"690 1475 LINE",
-"535 1475 LINE"
+"525 0 LINE",
+"670 0 LINE",
+"670 1475 LINE",
+"525 1475 LINE"
 );
 }
 );
@@ -70662,10 +70662,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"505 0 LINE",
-"584 0 LINE",
-"584 1475 LINE",
-"505 1475 LINE"
+"485 0 LINE",
+"604 0 LINE",
+"604 1475 LINE",
+"485 1475 LINE"
 );
 }
 );
