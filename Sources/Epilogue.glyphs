@@ -2,7 +2,7 @@
 .appVersion = "1339";
 DisplayStrings = (
 "",
-"dd/idotless/jdotless bb"
+"dd/idotless jbb"
 );
 classes = (
 {
@@ -26652,17 +26652,17 @@ unicode = 006A;
 },
 {
 glyphname = jdotless;
-lastChange = "2020-06-10 09:49:11 +0000";
+lastChange = "2020-06-10 09:52:09 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{260, -437}";
+position = "{214, -437}";
 },
 {
 name = top;
-position = "{305, 1062}";
+position = "{259, 1062}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -26670,36 +26670,36 @@ paths = (
 {
 closed = 1;
 nodes = (
-"266 -435 OFFCURVE",
-"321 -278 OFFCURVE",
-"321 -103 CURVE SMOOTH",
-"321 1062 LINE",
-"290 1062 LINE",
-"290 -96 LINE SMOOTH",
-"290 -237 OFFCURVE",
-"254 -407 OFFCURVE",
-"29 -407 CURVE SMOOTH",
-"-13 -407 OFFCURVE",
-"-51 -398 OFFCURVE",
-"-69 -391 CURVE",
-"-69 -422 LINE",
-"-53 -428 OFFCURVE",
-"-16 -435 OFFCURVE",
-"29 -435 CURVE SMOOTH"
+"246 -435 OFFCURVE",
+"270 -277 OFFCURVE",
+"270 -102 CURVE SMOOTH",
+"270 1062 LINE",
+"240 1062 LINE",
+"240 -96 LINE SMOOTH",
+"240 -237 OFFCURVE",
+"234 -407 OFFCURVE",
+"9 -407 CURVE SMOOTH",
+"-23 -407 OFFCURVE",
+"-54 -401 OFFCURVE",
+"-69 -396 CURVE",
+"-69 -427 LINE",
+"-56 -431 OFFCURVE",
+"-26 -435 OFFCURVE",
+"9 -435 CURVE SMOOTH"
 );
 }
 );
-width = 491;
+width = 480;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{290, -437}";
+position = "{287, -437}";
 },
 {
 name = top;
-position = "{320, 1062}";
+position = "{287, 1062}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -26707,36 +26707,36 @@ paths = (
 {
 closed = 1;
 nodes = (
-"443 -464 OFFCURVE",
-"524 -263 OFFCURVE",
-"524 -88 CURVE SMOOTH",
-"524 1062 LINE",
-"122 1062 LINE",
-"122 -81 LINE SMOOTH",
-"122 -121 OFFCURVE",
-"85 -173 OFFCURVE",
-"-30 -173 CURVE SMOOTH",
-"-72 -173 OFFCURVE",
-"-123 -168 OFFCURVE",
+"413 -464 OFFCURVE",
+"484 -264 OFFCURVE",
+"484 -89 CURVE SMOOTH",
+"484 1062 LINE",
+"82 1062 LINE",
+"82 -81 LINE SMOOTH",
+"82 -121 OFFCURVE",
+"55 -173 OFFCURVE",
+"-40 -173 CURVE SMOOTH",
+"-82 -173 OFFCURVE",
+"-123 -169 OFFCURVE",
 "-150 -165 CURVE",
 "-150 -460 LINE",
 "-122 -462 OFFCURVE",
-"-70 -464 OFFCURVE",
-"-30 -464 CURVE SMOOTH"
+"-80 -464 OFFCURVE",
+"-40 -464 CURVE SMOOTH"
 );
 }
 );
-width = 575;
+width = 559;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{258, -437}";
+position = "{222, -437}";
 },
 {
 name = top;
-position = "{298, 1062}";
+position = "{262, 1062}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
@@ -26744,37 +26744,36 @@ paths = (
 {
 closed = 1;
 nodes = (
-"320 -446 OFFCURVE",
-"384 -272 OFFCURVE",
-"384 -97 CURVE SMOOTH",
-"384 1062 LINE",
-"214 1062 LINE",
-"214 -90 LINE SMOOTH",
-"214 -194 OFFCURVE",
-"178 -319 OFFCURVE",
-"-6 -319 CURVE SMOOTH",
-"-48 -319 OFFCURVE",
-"-91 -312 OFFCURVE",
-"-112 -306 CURVE",
-"-112 -436 LINE",
-"-92 -441 OFFCURVE",
-"-49 -446 OFFCURVE",
-"-6 -446 CURVE SMOOTH"
+"303 -446 OFFCURVE",
+"345 -272 OFFCURVE",
+"345 -97 CURVE SMOOTH",
+"345 1062 LINE",
+"175 1062 LINE",
+"175 -90 LINE SMOOTH",
+"175 -194 OFFCURVE",
+"162 -319 OFFCURVE",
+"-22 -319 CURVE SMOOTH",
+"-58 -319 OFFCURVE",
+"-93 -314 OFFCURVE",
+"-112 -309 CURVE",
+"-112 -439 LINE",
+"-94 -443 OFFCURVE",
+"-59 -446 OFFCURVE",
+"-22 -446 CURVE SMOOTH"
 );
 }
 );
-width = 517;
+width = 512;
 }
 );
 leftKerningGroup = j;
 leftMetricsKey = j;
 rightKerningGroup = j;
-rightMetricsKey = j;
 unicode = 0237;
 },
 {
 glyphname = jcircumflex;
-lastChange = "2020-06-10 09:49:39 +0000";
+lastChange = "2020-06-10 09:52:22 +0000";
 layers = (
 {
 components = (
@@ -26783,11 +26782,11 @@ name = jdotless;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -83, 0}";
+transform = "{1, 0, 0, 1, -129, 0}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
-width = 491;
+width = 480;
 },
 {
 components = (
@@ -26796,11 +26795,11 @@ name = jdotless;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -185, 0}";
+transform = "{1, 0, 0, 1, -218, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 575;
+width = 559;
 },
 {
 components = (
@@ -26809,11 +26808,11 @@ name = jdotless;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -134, 0}";
+transform = "{1, 0, 0, 1, -170, 0}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 517;
+width = 512;
 }
 );
 leftKerningGroup = j;
