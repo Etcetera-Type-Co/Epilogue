@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-""
+"L/Lcaron TV"
 );
 classes = (
 {
@@ -8371,7 +8371,7 @@ unicode = 0136;
 },
 {
 glyphname = L;
-lastChange = "2020-06-10 10:08:30 +0000";
+lastChange = "2020-06-10 12:36:55 +0000";
 layers = (
 {
 anchors = (
@@ -8425,7 +8425,7 @@ position = "{309, 1475}";
 },
 {
 name = topright;
-position = "{736, 974}";
+position = "{715, 974}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -8586,7 +8586,7 @@ unicode = 0139;
 },
 {
 glyphname = Lcaron;
-lastChange = "2020-06-04 19:17:13 +0000";
+lastChange = "2020-06-10 12:37:10 +0000";
 layers = (
 {
 components = (
@@ -8608,7 +8608,7 @@ name = L;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 682, -88}";
+transform = "{1, 0, 0, 1, 661, -88}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -8629,7 +8629,7 @@ width = 981;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = L;
+rightKerningGroup = Lcaron;
 unicode = 013D;
 },
 {
