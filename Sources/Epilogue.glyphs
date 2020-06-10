@@ -2,7 +2,7 @@
 .appVersion = "1339";
 DisplayStrings = (
 "",
-"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012dd/oe bb"
+"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012ddþbb"
 );
 classes = (
 {
@@ -1105,7 +1105,7 @@ alignmentZones = (
 "{1180, 20}",
 "{1062, 14}",
 "{0, -18}",
-"{-467, 31}"
+"{-437, -31}"
 );
 ascender = 1563;
 capHeight = 1475;
@@ -1153,7 +1153,7 @@ name = smallCapHeight;
 value = 1180;
 }
 );
-descender = -467;
+descender = -437;
 horizontalStems = (
 28
 );
@@ -1171,7 +1171,7 @@ alignmentZones = (
 "{1180, 20}",
 "{1062, 17}",
 "{0, -21}",
-"{-467, 31}"
+"{-437, -31}"
 );
 ascender = 1563;
 capHeight = 1475;
@@ -1218,7 +1218,7 @@ name = smallCapHeight;
 value = 1180;
 }
 );
-descender = -467;
+descender = -437;
 guideLines = (
 {
 position = "{739, 924}";
@@ -1242,7 +1242,7 @@ alignmentZones = (
 "{1180, 23}",
 "{1062, 23}",
 "{0, -27}",
-"{-467, 31}"
+"{-437, -31}"
 );
 ascender = 1563;
 capHeight = 1475;
@@ -1290,7 +1290,7 @@ name = smallCapHeight;
 value = 1180;
 }
 );
-descender = -467;
+descender = -437;
 guideLines = (
 {
 position = "{141, 1011}";
