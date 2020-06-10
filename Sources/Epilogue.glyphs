@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012/eng/nhookleft \012dd/h.sc/uhorn.sc/h.sc bdub"
+"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012/eng/nhookleft \012HHÆ/AEacute HH"
 );
 classes = (
 {
@@ -2803,7 +2803,7 @@ unicode = 00C3;
 },
 {
 glyphname = AE;
-lastChange = "2020-06-06 15:07:16 +0000";
+lastChange = "2020-06-10 11:43:39 +0000";
 layers = (
 {
 anchors = (
@@ -2813,7 +2813,7 @@ position = "{876, 0}";
 },
 {
 name = top;
-position = "{883, 1472}";
+position = "{952, 1472}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -2863,7 +2863,7 @@ position = "{989, 0}";
 },
 {
 name = top;
-position = "{999, 1475}";
+position = "{1297, 1475}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -2913,7 +2913,7 @@ position = "{918, 0}";
 },
 {
 name = top;
-position = "{927, 1473}";
+position = "{1055, 1473}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
@@ -2963,7 +2963,7 @@ unicode = 00C6;
 },
 {
 glyphname = AEacute;
-lastChange = "2020-06-04 17:38:05 +0000";
+lastChange = "2020-06-10 11:43:39 +0000";
 layers = (
 {
 components = (
@@ -2972,7 +2972,7 @@ name = AE;
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 683, -3}";
+transform = "{1, 0, 0, 1, 752, -3}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -2985,7 +2985,7 @@ name = AE;
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 770, 0}";
+transform = "{1, 0, 0, 1, 1068, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -2998,7 +2998,7 @@ name = AE;
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 724, -2}";
+transform = "{1, 0, 0, 1, 852, -2}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
