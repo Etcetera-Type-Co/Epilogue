@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012/eng/nhookleft \012HHæHH"
+""
 );
 classes = (
 {
@@ -22438,7 +22438,7 @@ unicode = 010B;
 },
 {
 glyphname = d;
-lastChange = "2020-06-08 20:14:00 +0000";
+lastChange = "2020-06-10 12:31:00 +0000";
 layers = (
 {
 anchors = (
@@ -22654,7 +22654,7 @@ width = 1256;
 leftKerningGroup = o;
 leftMetricsKey = o;
 note = d;
-rightKerningGroup = l;
+rightKerningGroup = d;
 unicode = 0064;
 },
 {
@@ -22980,7 +22980,7 @@ unicode = 0111;
 },
 {
 glyphname = ddotbelow;
-lastChange = "2020-06-08 20:14:34 +0000";
+lastChange = "2020-06-10 12:31:35 +0000";
 layers = (
 {
 components = (
@@ -23023,12 +23023,12 @@ width = 1256;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = l;
+rightKerningGroup = d;
 unicode = 1E0D;
 },
 {
 glyphname = dlinebelow;
-lastChange = "2020-06-08 20:14:34 +0000";
+lastChange = "2020-06-10 12:31:35 +0000";
 layers = (
 {
 components = (
@@ -23071,7 +23071,7 @@ width = 1256;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = l;
+rightKerningGroup = d;
 unicode = 1E0F;
 },
 {
@@ -25869,7 +25869,7 @@ unicode = 0068;
 },
 {
 glyphname = hbar;
-lastChange = "2020-06-10 09:44:06 +0000";
+lastChange = "2020-06-10 12:34:47 +0000";
 layers = (
 {
 components = (
@@ -25889,7 +25889,7 @@ nodes = (
 );
 }
 );
-width = 1161;
+width = 1112;
 },
 {
 components = (
@@ -25931,7 +25931,7 @@ nodes = (
 );
 }
 );
-width = 1208;
+width = 1197;
 }
 );
 leftKerningGroup = h;
@@ -40042,7 +40042,7 @@ rightKerningGroup = n;
 {
 color = 3;
 glyphname = l.ss01;
-lastChange = "2020-06-10 11:10:37 +0000";
+lastChange = "2020-06-10 12:31:09 +0000";
 layers = (
 {
 anchors = (
@@ -40147,11 +40147,12 @@ width = 511;
 leftKerningGroup = h;
 leftMetricsKey = h;
 note = l;
+rightKerningGroup = d;
 },
 {
 color = 3;
 glyphname = lacute.ss01;
-lastChange = "2020-06-09 14:31:55 +0000";
+lastChange = "2020-06-10 12:31:48 +0000";
 layers = (
 {
 components = (
@@ -40194,6 +40195,7 @@ width = 587;
 }
 );
 leftKerningGroup = h;
+rightKerningGroup = d;
 },
 {
 color = 3;
@@ -40251,7 +40253,7 @@ rightKerningGroup = caron;
 {
 color = 3;
 glyphname = lcommaaccent.ss01;
-lastChange = "2020-06-09 14:31:55 +0000";
+lastChange = "2020-06-10 12:31:48 +0000";
 layers = (
 {
 components = (
@@ -40294,6 +40296,7 @@ width = 587;
 }
 );
 leftKerningGroup = h;
+rightKerningGroup = d;
 },
 {
 color = 3;
@@ -40350,7 +40353,7 @@ leftMetricsKey = h;
 {
 color = 3;
 glyphname = ldotbelow.ss01;
-lastChange = "2020-06-09 14:31:55 +0000";
+lastChange = "2020-06-10 12:31:48 +0000";
 layers = (
 {
 components = (
@@ -40393,11 +40396,12 @@ width = 587;
 }
 );
 leftKerningGroup = h;
+rightKerningGroup = d;
 },
 {
 color = 3;
 glyphname = llinebelow.ss01;
-lastChange = "2020-06-09 14:31:55 +0000";
+lastChange = "2020-06-10 12:31:48 +0000";
 layers = (
 {
 components = (
@@ -40440,6 +40444,7 @@ width = 587;
 }
 );
 leftKerningGroup = h;
+rightKerningGroup = d;
 },
 {
 color = 3;
