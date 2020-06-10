@@ -2,7 +2,7 @@
 .appVersion = "1339";
 DisplayStrings = (
 "",
-"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012dd/uhorn bdub"
+"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012ddxbdub"
 );
 classes = (
 {
@@ -36423,7 +36423,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2020-06-10 08:56:23 +0000";
+lastChange = "2020-06-10 10:58:29 +0000";
 layers = (
 {
 anchors = (
@@ -36485,7 +36485,7 @@ nodes = (
 "801 0 LINE",
 "1241 0 LINE",
 "768 670 LINE",
-"752 401 LINE",
+"801 468 LINE",
 "1239 1062 LINE",
 "809 1062 LINE",
 "507 594 LINE",
@@ -36493,7 +36493,7 @@ nodes = (
 "451 1062 LINE",
 "12 1062 LINE",
 "473 421 LINE",
-"525 660 LINE"
+"476 599 LINE"
 );
 }
 );
@@ -36518,19 +36518,19 @@ nodes = (
 "57 0 LINE",
 "240 0 LINE",
 "606 496 LINE",
-"468 506 LINE",
+"494 470 LINE",
 "837 0 LINE",
 "1024 0 LINE",
-"601 596 LINE",
-"598 486 LINE",
+"627 559 LINE",
+"616 510 LINE",
 "1016 1062 LINE",
 "833 1062 LINE",
-"491 575 LINE",
-"617 565 LINE",
+"500 588 LINE",
+"602 585 LINE",
 "257 1062 LINE",
 "71 1062 LINE",
 "484 484 LINE",
-"500 583 LINE"
+"486 565 LINE"
 );
 }
 );
