@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012/eng/nhookleft \012HHÇç/ccedilla.sc/AEacute HH"
+"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012/eng/nhookleft \012HHHHH"
 );
 classes = (
 {
@@ -6760,7 +6760,7 @@ unicode = 01E4;
 },
 {
 glyphname = H;
-lastChange = "2020-06-04 17:48:46 +0000";
+lastChange = "2020-06-10 11:49:22 +0000";
 layers = (
 {
 anchors = (
@@ -6832,18 +6832,18 @@ paths = (
 closed = 1;
 nodes = (
 "965 1475 LINE",
-"965 702 LINE",
+"965 790 LINE",
 "1147 884 LINE",
 "332 884 LINE",
-"514 702 LINE",
+"514 789 LINE",
 "514 1475 LINE",
 "110 1475 LINE",
 "110 0 LINE",
 "514 0 LINE",
-"514 765 LINE",
+"514 676 LINE",
 "332 583 LINE",
 "1147 583 LINE",
-"965 765 LINE",
+"965 682 LINE",
 "965 0 LINE",
 "1369 0 LINE",
 "1369 1475 LINE"
