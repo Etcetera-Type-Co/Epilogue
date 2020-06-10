@@ -2,7 +2,8 @@
 .appVersion = "1339";
 DisplayStrings = (
 "/Ohorn/Uhorn/ohorn/uhorn/lcaron/dcaron/Lcaron \012/Lcaron A/Lcaron B/Lcaron CC/Lcaron D/Lcaron E/Lcaron F/Lcaron G/Lcaron H/Lcaron I/Lcaron J/Lcaron K/Lcaron L/Lcaron M/Lcaron N/Lcaron O/Lcaron P/Lcaron Q/Lcaron R/Lcaron S\012/Lcaron T/Lcaron U/Lcaron V/Lcaron W/Lcaron X/Lcaron Y/Lcaron LZJH/space/Lcaron/quoteright S/space/Lcaron/quotedblright/Lcaron -/Lcaron/endash/Lcaron/emdash/Lcaron/ellipsis/Lcaron ./space/Lcaron ,/space/Lcaron ;/space/Lcaron :/space/Lcaron ?/space/Lcaron !\012\012A/Uhorn B/Uhorn C/Uhorn D/Uhorn E/Uhorn F/Uhorn G/Uhorn H/Uhorn I/Uhorn J/Uhorn K/Uhorn L/Uhorn M/Uhorn N/Uhorn O/Uhorn P/Uhorn Q/Uhorn R\012/Uhorn S/Uhorn T/Uhorn U/Uhorn V/Uhorn W/Uhorn X/Uhorn Y/Uhorn ZH/space/Uhorn/quoteright S/space/Uhorn/quotedblright/Uhorn -/Uhorn/endash/Uhorn/emdash/Uhorn/ellipsis/Uhorn ./space/Uhorn ,/space/Uhorn ;/space/Uhorn :/space/Uhorn ?/space/Uhorn !\012\012/Ohorn A/Ohorn B/Ohorn C/Ohorn D/Ohorn E/Ohorn F/Ohorn G/Ohorn H/Ohorn I/Ohorn J/Ohorn K/Ohorn L/Ohorn M/Ohorn N/Ohorn O/Ohorn P/Ohorn Q/Ohorn R\012/Ohorn S/Ohorn T/Ohorn U/Ohorn V/Ohorn W/Ohorn X/Ohorn Y/Ohorn ZH/space/Ohorn/quoteright S/space/Ohorn/quotedblright/Ohorn -/Ohorn/endash/Ohorn/emdash/Ohorn/ellipsis/Ohorn ./space/Ohorn ,/space/Ohorn ;/space/Ohorn :/space/Ohorn ?/space/Ohorn !",
-"/lcaron a/lcaron b/lcaron c/lcaron d/lcaron e/lcaron f/lcaron g/lcaron h/lcaron i/lcaron j/lcaron k/lcaron l/lcaron ml/lcaron n/lcaron o/lcaron p/lcaron q/lcaron r/lcaron s/lcaron t/lcaron u/lcaron v/lcaron w/lcaron x/lcaron y/lcaron zl/space/lcaron/quoteright s/space/lcaron/quotedblright/lcaron -/lcaron/endash/lcaron/emdash/lcaron/ellipsis/lcaron ./space/lcaron ,/space/lcaron ;/space/lcaron :/space/lcaron ?/space/lcaron !\012/dcaron ab/dcaron b/dcaron c/dcaron d/dcaron e/dcaron f/dcaron g/dcaron h/dcaron i/dcaron j/dcaron k/dcaron l/dcaron m/dcaron nb/dcaron o/dcaron p/dcaron q/dcaron r/dcaron s/dcaron t/dcaron u/dcaron v/dcaron w/dcaron x/dcaron y/dcaron zb/space/dcaron/quoteright s/space/dcaron/quotedblright/dcaron -/dcaron/endash/dcaron/emdash/dcaron/ellipsis/dcaron .d./space/dcaron ,/space/dcaron ;/space/dcaron :/space/dcaron ?/space/dcaron !/tcaron/tcaron.ss01 \012"
+"/lcaron a/lcaron b/lcaron c/lcaron d/lcaron e/lcaron f/lcaron g/lcaron h/lcaron i/lcaron j/lcaron k/lcaron l/lcaron ml/lcaron n/lcaron o/lcaron p/lcaron q/lcaron r/lcaron s/lcaron t/lcaron u/lcaron v/lcaron w/lcaron x/lcaron y/lcaron zl/space/lcaron/quoteright s/space/lcaron/quotedblright/lcaron -/lcaron/endash/lcaron/emdash/lcaron/ellipsis/lcaron ./space/lcaron ,/space/lcaron ;/space/lcaron :/space/lcaron ?/space/lcaron !\012/dcaron ab/dcaron b/dcaron c/dcaron d/dcaron e/dcaron f/dcaron g/dcaron h/dcaron i/dcaron j/dcaron k/dcaron l/dcaron m/dcaron nb/dcaron o/dcaron p/dcaron q/dcaron r/dcaron s/dcaron t/dcaron u/dcaron v/dcaron w/dcaron x/dcaron y/dcaron zb/space/dcaron/quoteright s/space/dcaron/quotedblright/dcaron -/dcaron/endash/dcaron/emdash/dcaron/ellipsis/dcaron .d./space/dcaron ,/space/dcaron ;/space/dcaron :/space/dcaron ?/space/dcaron !/tcaron/tcaron.ss01 \012",
+"/lcaron.sc/tcaron.sc/h.sc"
 );
 classes = (
 {
@@ -48441,7 +48442,7 @@ rightKerningGroup = L;
 },
 {
 glyphname = lcaron.sc;
-lastChange = "2020-06-08 15:55:35 +0000";
+lastChange = "2020-06-10 14:23:37 +0000";
 layers = (
 {
 components = (
@@ -48484,7 +48485,7 @@ width = 908;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = H;
+rightKerningGroup = Lcaron;
 },
 {
 glyphname = lcommaaccent.sc;
