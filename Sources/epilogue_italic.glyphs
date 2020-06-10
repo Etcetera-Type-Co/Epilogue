@@ -65,7 +65,7 @@ name = blueShift;
 value = 7;
 }
 );
-date = "2020-06-10 15:06:47 +0000";
+date = "2020-06-10 16:29:27 +0000";
 designer = "Tyler Finck";
 designerURL = "https://www.madebytyler.com";
 familyName = Epilogue;
@@ -87413,10 +87413,6 @@ kerning = {
 "@MMK_R_o" = -80;
 "@MMK_R_v" = -80;
 };
-"@MMK_L_l" = {
-"@MMK_R_t" = -30;
-"@MMK_R_y" = -30;
-};
 "@MMK_L_n" = {
 "@MMK_R_T" = -130;
 "@MMK_R_o" = 0;
@@ -87717,11 +87713,6 @@ kerning = {
 "@MMK_R_o" = -50;
 "@MMK_R_v" = -50;
 };
-"@MMK_L_l" = {
-"@MMK_R_t" = -30;
-"@MMK_R_v" = -50;
-"@MMK_R_y" = -45;
-};
 "@MMK_L_n" = {
 "@MMK_R_T" = -115;
 "@MMK_R_t" = -30;
@@ -88011,11 +88002,6 @@ kerning = {
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -80;
 "@MMK_R_o" = -60;
-};
-"@MMK_L_l" = {
-"@MMK_R_t" = -70;
-"@MMK_R_v" = -50;
-"@MMK_R_y" = -60;
 };
 "@MMK_L_n" = {
 "@MMK_R_T" = -90;
