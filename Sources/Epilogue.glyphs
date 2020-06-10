@@ -2,7 +2,7 @@
 .appVersion = "1339";
 DisplayStrings = (
 "",
-"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012ddþbb"
+"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012dd/tcaron btb"
 );
 classes = (
 {
@@ -33678,7 +33678,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2020-06-09 14:24:17 +0000";
+lastChange = "2020-06-10 10:48:48 +0000";
 layers = (
 {
 anchors = (
@@ -33696,7 +33696,7 @@ position = "{329, 1365}";
 },
 {
 name = topright;
-position = "{700, 1062}";
+position = "{558, 1062}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -33758,7 +33758,7 @@ position = "{463, 1390}";
 },
 {
 name = topright;
-position = "{929, 1062}";
+position = "{733, 1062}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -33820,7 +33820,7 @@ position = "{385, 1396}";
 },
 {
 name = topright;
-position = "{784, 1062}";
+position = "{626, 1062}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
@@ -33946,16 +33946,18 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2020-06-08 13:36:03 +0000";
+lastChange = "2020-06-10 10:50:02 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 646, 0}";
+transform = "{1, 0, 0, 1, 504, 0}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -33968,12 +33970,13 @@ alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 875, 0}";
+transform = "{1, 0, 0, 1, 679, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 1194;
+width = 992;
 },
 {
 components = (
@@ -33984,11 +33987,11 @@ name = t;
 {
 alignment = -1;
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 710, 0}";
+transform = "{1, 0, 0, 1, 572, 0}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 905;
+width = 859;
 }
 );
 leftKerningGroup = t;
