@@ -8559,7 +8559,7 @@ unicode = 013B;
 },
 {
 glyphname = Ldot;
-lastChange = "2020-06-10 10:15:26 +0000";
+lastChange = "2020-06-10 11:28:23 +0000";
 layers = (
 {
 components = (
@@ -8605,7 +8605,6 @@ width = 981;
 );
 leftKerningGroup = H;
 leftMetricsKey = H;
-rightKerningGroup = L;
 unicode = 013F;
 },
 {
@@ -27487,7 +27486,7 @@ unicode = 013C;
 },
 {
 glyphname = ldot;
-lastChange = "2020-06-10 10:19:51 +0000";
+lastChange = "2020-06-10 11:28:26 +0000";
 layers = (
 {
 components = (
@@ -27536,7 +27535,6 @@ width = 662;
 );
 leftKerningGroup = h;
 leftMetricsKey = h;
-rightKerningGroup = l;
 unicode = 0140;
 },
 {
@@ -47588,7 +47586,7 @@ rightKerningGroup = K;
 },
 {
 glyphname = l.sc;
-lastChange = "2020-06-04 20:03:07 +0000";
+lastChange = "2020-06-10 11:28:41 +0000";
 layers = (
 {
 anchors = (
@@ -47867,7 +47865,7 @@ rightKerningGroup = L;
 },
 {
 glyphname = ldot.sc;
-lastChange = "2020-06-10 11:25:24 +0000";
+lastChange = "2020-06-10 11:28:38 +0000";
 layers = (
 {
 components = (
@@ -47912,7 +47910,6 @@ width = 908;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = H;
 },
 {
 glyphname = ldotbelow.sc;
