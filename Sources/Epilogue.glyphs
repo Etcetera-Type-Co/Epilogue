@@ -2,12 +2,13 @@
 .appVersion = "1339";
 DisplayStrings = (
 "",
-"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012ddxbdub"
+"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012dd/fl bdub",
+"L/Ldot LL/space l/ldot ll/space/space/ldot.ss01/l.ss01/l.ss01/periodcentered.loclCAT.ss01/l.ss01 \012/l.sc/ldot.sc/l.sc/l.sc/periodcentered.loclCAT.sc/l.sc"
 );
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adieresismacron Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Ezh Ezhcaron F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hbrevebelow Hcircumflex Hdotbelow I I.ss01 Iacute Iacute.ss01 Ibreve Ibreve.ss01 Icaron Icaron.ss01 Icircumflex Icircumflex.ss01 Idblgrave Idblgrave.ss01 Idieresis Idieresis.ss01 Idieresisacute Idieresisacute.ss01 Idotaccent Idotaccent.ss01 Idotbelow Idotbelow.ss01 Igrave Igrave.ss01 Ihookabove Ihookabove.ss01 Iinvertedbreve Iinvertedbreve.ss01 Imacron Imacron.ss01 Iogonek Iogonek.ss01 Itilde Itilde.ss01 J Jcircumflex K Kcaron Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nhookleft Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R R.ss01 Racute Racute.ss01 Rcaron Rcaron.ss01 Rcommaaccent Rcommaaccent.ss01 Rdblgrave Rdblgrave.ss01 Rdotbelow Rdotbelow.ss01 Rinvertedbreve Rinvertedbreve.ss01 Rlinebelow Rlinebelow.ss01 S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adieresismacron Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Ezh Ezhcaron F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hbrevebelow Hcircumflex Hdotbelow I Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcaron Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nhookleft Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow I.ss01 Iacute.ss01 Ibreve.ss01 Icaron.ss01 Icircumflex.ss01 Idblgrave.ss01 Idieresis.ss01 Idieresisacute.ss01 Idotaccent.ss01 Idotbelow.ss01 Igrave.ss01 Ihookabove.ss01 Iinvertedbreve.ss01 Imacron.ss01 Iogonek.ss01 Itilde.ss01 R.ss01 Racute.ss01 Rcaron.ss01 Rcommaaccent.ss01 Rdblgrave.ss01 Rdotbelow.ss01 Rinvertedbreve.ss01 Rlinebelow.ss01";
 name = Uppercase;
 },
 {
@@ -394,7 +395,6 @@ sub Hbrevebelow by hbrevebelow.sc;
 sub Hcircumflex by hcircumflex.sc;
 sub Hdotbelow by hdotbelow.sc;
 sub I by i.sc;
-sub I.ss01 by i.ss01.sc;
 sub Iacute by iacute.sc;
 sub Ibreve by ibreve.sc;
 sub Icaron by icaron.sc;
@@ -478,7 +478,6 @@ sub P by p.sc;
 sub Thorn by thorn.sc;
 sub Q by q.sc;
 sub R by r.sc;
-sub R.ss01 by r.ss01.sc;
 sub Racute by racute.sc;
 sub Rcaron by rcaron.sc;
 sub Rcommaaccent by rcommaaccent.sc;
@@ -555,6 +554,9 @@ sub Zacute by zacute.sc;
 sub Zcaron by zcaron.sc;
 sub Zdotaccent by zdotaccent.sc;
 sub Zdotbelow by zdotbelow.sc;
+sub I.ss01 by i.ss01.sc;
+sub R.ss01 by r.ss01.sc;
+sub periodcentered.loclCAT.case by periodcentered.loclCAT.sc;
 ";
 name = c2sc;
 },
@@ -799,6 +801,7 @@ sub zacute by zacute.sc;
 sub zcaron by zcaron.sc;
 sub zdotaccent by zdotaccent.sc;
 sub zdotbelow by zdotbelow.sc;
+sub periodcentered.loclCAT by periodcentered.loclCAT.sc;
 ";
 name = smcp;
 },
@@ -992,6 +995,7 @@ sub rdblgrave.sc by rdblgrave.sc.ss01;
 sub rdotbelow.sc by rdotbelow.sc.ss01;
 sub rinvertedbreve.sc by rinvertedbreve.sc.ss01;
 sub rlinebelow.sc by rlinebelow.sc.ss01;
+sub periodcentered.loclCAT by periodcentered.loclCAT.ss01;
 ";
 name = salt;
 },
@@ -1093,6 +1097,7 @@ sub rdblgrave.sc by rdblgrave.sc.ss01;
 sub rdotbelow.sc by rdotbelow.sc.ss01;
 sub rinvertedbreve.sc by rinvertedbreve.sc.ss01;
 sub rlinebelow.sc by rlinebelow.sc.ss01;
+sub periodcentered.loclCAT by periodcentered.loclCAT.ss01;
 ";
 name = ss01;
 }
@@ -39474,7 +39479,7 @@ rightKerningGroup = n;
 {
 color = 3;
 glyphname = l.ss01;
-lastChange = "2020-06-09 14:31:55 +0000";
+lastChange = "2020-06-10 11:10:37 +0000";
 layers = (
 {
 anchors = (
@@ -39730,7 +39735,7 @@ leftKerningGroup = h;
 {
 color = 3;
 glyphname = ldot.ss01;
-lastChange = "2020-06-09 14:31:55 +0000";
+lastChange = "2020-06-10 11:16:59 +0000";
 layers = (
 {
 components = (
@@ -39739,13 +39744,12 @@ alignment = -1;
 name = l.ss01;
 },
 {
-alignment = -1;
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 177, -547}";
+name = periodcentered;
+transform = "{1, 0, 0, 1, 225, 71}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
-width = 421;
+width = 515;
 },
 {
 components = (
@@ -39755,12 +39759,12 @@ name = l.ss01;
 },
 {
 alignment = -1;
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 241, -547}";
+name = periodcentered;
+transform = "{1, 0, 0, 1, 322, 70}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 491;
+width = 664;
 },
 {
 components = (
@@ -39769,13 +39773,12 @@ alignment = -1;
 name = l.ss01;
 },
 {
-alignment = -1;
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 495, -547}";
+name = periodcentered;
+transform = "{1, 0, 0, 1, 499, 70}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 917;
+width = 1050;
 }
 );
 leftKerningGroup = h;
@@ -47864,7 +47867,7 @@ rightKerningGroup = L;
 },
 {
 glyphname = ldot.sc;
-lastChange = "2020-06-08 15:55:54 +0000";
+lastChange = "2020-06-10 11:25:24 +0000";
 layers = (
 {
 components = (
@@ -47872,9 +47875,8 @@ components = (
 name = l.sc;
 },
 {
-alignment = -1;
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 381, -729}";
+name = periodcentered;
+transform = "{1, 0, 0, 1, 374, -114}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -47886,13 +47888,12 @@ components = (
 name = l.sc;
 },
 {
-alignment = -1;
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 528, -659}";
+name = periodcentered;
+transform = "{1, 0, 0, 1, 554, -20}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 997;
+width = 1175;
 },
 {
 components = (
@@ -47902,8 +47903,8 @@ name = l.sc;
 },
 {
 alignment = -1;
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 452, -729}";
+name = periodcentered;
+transform = "{1, 0, 0, 1, 408, -62}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
@@ -67495,7 +67496,7 @@ width = 10;
 },
 {
 glyphname = periodcentered.loclCAT;
-lastChange = "2020-06-10 10:19:09 +0000";
+lastChange = "2020-06-10 11:10:43 +0000";
 layers = (
 {
 components = (
@@ -67527,6 +67528,45 @@ transform = "{1, 0, 0, 1, -221, 70}";
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
 width = 119;
+}
+);
+leftKerningGroup = periodcentered;
+rightKerningGroup = period;
+},
+{
+glyphname = periodcentered.loclCAT.ss01;
+lastChange = "2020-06-10 11:16:15 +0000";
+layers = (
+{
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, -195, 71}";
+}
+);
+layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
+width = 95;
+},
+{
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, -88, 70}";
+}
+);
+layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
+width = 463;
+},
+{
+components = (
+{
+alignment = -1;
+name = periodcentered;
+transform = "{1, 0, 0, 1, -189, 70}";
+}
+);
+layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
+width = 153;
 }
 );
 leftKerningGroup = periodcentered;
@@ -70377,6 +70417,45 @@ leftKerningGroup = quote;
 note = quotesingle;
 rightKerningGroup = quotedblleft;
 unicode = 0027;
+},
+{
+glyphname = periodcentered.loclCAT.sc;
+lastChange = "2020-06-10 11:27:07 +0000";
+layers = (
+{
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, -481, -114}";
+}
+);
+layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
+width = 0;
+},
+{
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, -443, -20}";
+}
+);
+layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
+width = 178;
+},
+{
+components = (
+{
+alignment = -1;
+name = periodcentered;
+transform = "{1, 0, 0, 1, -500, -62}";
+}
+);
+layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
+width = 125;
+}
+);
+leftKerningGroup = periodcentered;
+rightKerningGroup = period;
 },
 {
 glyphname = figurespace;
@@ -88054,7 +88133,7 @@ kerning = {
 "@MMK_R_j" = 20;
 };
 "@MMK_L_period" = {
-"@MMK_R_H" = -200;
+"@MMK_R_H" = 0;
 "@MMK_R_T" = -200;
 "@MMK_R_V" = -150;
 "@MMK_R_Y" = -150;
