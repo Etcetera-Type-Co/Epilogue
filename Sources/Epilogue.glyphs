@@ -1234,7 +1234,7 @@ xHeight = 1062;
 alignmentZones = (
 "{1563, 15}",
 "{1475, 26}",
-"{1180, 20}",
+"{1180, 23}",
 "{1062, 23}",
 "{0, -27}",
 "{-467, 31}"
@@ -44604,7 +44604,7 @@ rightKerningGroup = E;
 },
 {
 glyphname = schwa.sc;
-lastChange = "2020-06-04 20:03:07 +0000";
+lastChange = "2020-06-10 09:35:03 +0000";
 layers = (
 {
 anchors = (
@@ -44680,6 +44680,14 @@ name = top;
 position = "{631, 1180}";
 }
 );
+background = {
+components = (
+{
+name = c.sc;
+transform = "{-1, 0, 0, 1, 1296, 0}";
+}
+);
+};
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
 paths = (
 {
