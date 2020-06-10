@@ -2,7 +2,7 @@
 .appVersion = "1339";
 DisplayStrings = (
 "",
-"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012dd/tcaron btb"
+"dd/dcaron bb\012dd/dcroat bb\012dd/hbar bb\012dd/uhorn bdub"
 );
 classes = (
 {
@@ -33678,7 +33678,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2020-06-10 10:48:48 +0000";
+lastChange = "2020-06-10 10:53:49 +0000";
 layers = (
 {
 anchors = (
@@ -35105,7 +35105,7 @@ unicode = 1EE7;
 },
 {
 glyphname = uhorn;
-lastChange = "2020-06-08 15:17:38 +0000";
+lastChange = "2020-06-10 10:55:37 +0000";
 layers = (
 {
 components = (
@@ -35130,7 +35130,7 @@ nodes = (
 );
 }
 );
-width = 1197;
+width = 1117;
 },
 {
 components = (
@@ -35155,7 +35155,7 @@ nodes = (
 );
 }
 );
-width = 1450;
+width = 1381;
 },
 {
 components = (
@@ -35180,7 +35180,7 @@ nodes = (
 );
 }
 );
-width = 1292;
+width = 1222;
 }
 );
 leftKerningGroup = u;
@@ -35189,7 +35189,7 @@ unicode = 01B0;
 },
 {
 glyphname = uhornacute;
-lastChange = "2020-06-09 14:26:23 +0000";
+lastChange = "2020-06-10 10:55:53 +0000";
 layers = (
 {
 components = (
@@ -35203,7 +35203,7 @@ transform = "{1, 0, 0, 1, 352, 0}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
-width = 1197;
+width = 1117;
 },
 {
 components = (
@@ -35217,7 +35217,7 @@ transform = "{1, 0, 0, 1, 417, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 1450;
+width = 1381;
 },
 {
 components = (
@@ -35231,7 +35231,7 @@ transform = "{1, 0, 0, 1, 397, 0}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 1292;
+width = 1222;
 }
 );
 leftKerningGroup = u;
@@ -35240,7 +35240,7 @@ unicode = 1EE9;
 },
 {
 glyphname = uhorndotbelow;
-lastChange = "2020-06-09 14:26:23 +0000";
+lastChange = "2020-06-10 10:55:53 +0000";
 layers = (
 {
 components = (
@@ -35254,7 +35254,7 @@ transform = "{1, 0, 0, 1, 271, -14}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
-width = 1197;
+width = 1117;
 },
 {
 components = (
@@ -35268,7 +35268,7 @@ transform = "{1, 0, 0, 1, 399, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 1450;
+width = 1381;
 },
 {
 components = (
@@ -35282,7 +35282,7 @@ transform = "{1, 0, 0, 1, 339, -9}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 1292;
+width = 1222;
 }
 );
 leftKerningGroup = u;
@@ -35291,7 +35291,7 @@ unicode = 1EF1;
 },
 {
 glyphname = uhorngrave;
-lastChange = "2020-06-09 14:26:23 +0000";
+lastChange = "2020-06-10 10:55:53 +0000";
 layers = (
 {
 components = (
@@ -35305,7 +35305,7 @@ transform = "{1, 0, 0, 1, 150, 0}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
-width = 1197;
+width = 1117;
 },
 {
 components = (
@@ -35319,7 +35319,7 @@ transform = "{1, 0, 0, 1, 191, -9}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 1450;
+width = 1381;
 },
 {
 components = (
@@ -35333,7 +35333,7 @@ transform = "{1, 0, 0, 1, 174, 0}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 1292;
+width = 1222;
 }
 );
 leftKerningGroup = u;
@@ -35342,7 +35342,7 @@ unicode = 1EEB;
 },
 {
 glyphname = uhornhookabove;
-lastChange = "2020-06-10 09:49:39 +0000";
+lastChange = "2020-06-10 10:55:53 +0000";
 layers = (
 {
 components = (
@@ -35356,7 +35356,7 @@ transform = "{1, 0, 0, 1, 187, 0}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
-width = 1197;
+width = 1117;
 },
 {
 components = (
@@ -35370,7 +35370,7 @@ transform = "{1, 0, 0, 1, 273, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 1450;
+width = 1381;
 },
 {
 components = (
@@ -35384,7 +35384,7 @@ transform = "{1, 0, 0, 1, 259, 0}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 1292;
+width = 1222;
 }
 );
 leftKerningGroup = u;
@@ -35393,7 +35393,7 @@ unicode = 1EED;
 },
 {
 glyphname = uhorntilde;
-lastChange = "2020-06-09 14:26:23 +0000";
+lastChange = "2020-06-10 10:55:53 +0000";
 layers = (
 {
 components = (
@@ -35407,7 +35407,7 @@ transform = "{1, 0, 0, 1, 115, 0}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
-width = 1197;
+width = 1117;
 },
 {
 components = (
@@ -35421,7 +35421,7 @@ transform = "{1, 0, 0, 1, 132, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 1450;
+width = 1381;
 },
 {
 components = (
@@ -35435,7 +35435,7 @@ transform = "{1, 0, 0, 1, 141, 0}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 1292;
+width = 1222;
 }
 );
 leftKerningGroup = u;
