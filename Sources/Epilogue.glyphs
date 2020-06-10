@@ -1,7 +1,8 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"L/Lcaron TV"
+"L/Lcaron TV",
+"/t.ss01/tbar.ss01 t/tcaron/t.ss01/tcaron.ss01 h/tcedilla.ss01/tcommaaccent.ss01/tdieresis.ss01/tdotbelow.ss01/tlinebelow.ss01"
 );
 classes = (
 {
@@ -40517,7 +40518,7 @@ leftKerningGroup = h;
 {
 color = 3;
 glyphname = t.ss01;
-lastChange = "2020-06-09 14:31:55 +0000";
+lastChange = "2020-06-10 12:39:15 +0000";
 layers = (
 {
 anchors = (
@@ -40535,7 +40536,7 @@ position = "{287, 1346}";
 },
 {
 name = topright;
-position = "{557, 1062}";
+position = "{480, 1062}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -40579,7 +40580,7 @@ position = "{463, 1340}";
 },
 {
 name = topright;
-position = "{863, 1062}";
+position = "{697, 1062}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -40623,7 +40624,7 @@ position = "{358, 1344}";
 },
 {
 name = topright;
-position = "{677, 1062}";
+position = "{570, 1062}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
@@ -40727,7 +40728,7 @@ width = 942;
 {
 color = 3;
 glyphname = tcaron.ss01;
-lastChange = "2020-06-09 14:31:55 +0000";
+lastChange = "2020-06-10 12:39:15 +0000";
 layers = (
 {
 components = (
@@ -40736,7 +40737,7 @@ name = t.ss01;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 503, 0}";
+transform = "{1, 0, 0, 1, 426, 0}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -40749,7 +40750,7 @@ name = t.ss01;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 623, 0}";
+transform = "{1, 0, 0, 1, 516, 0}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
@@ -40762,7 +40763,7 @@ name = t.ss01;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 809, 0}";
+transform = "{1, 0, 0, 1, 643, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
