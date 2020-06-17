@@ -1,5 +1,11 @@
 {
 .appVersion = "1339";
+DisplayStrings = (
+"/dieresiscomb.case/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/circumflexcomb.case/circumflexcomb_hookcomb.case/caroncomb.case/brevecomb.case/ringcomb.case/tildecomb.case/macroncomb.case/hookabovecomb.case/dblgravecomb.case/breveinvertedcomb.case/commaturnedabovecomb.case/horncomb.case",
+"/cedillacomb ¸Ç",
+"/Ldot L/periodcentered.loclCAT.case L",
+"/ldot l\012/l.ss01/periodcentered.loclCAT.ss01 l/periodcentered.loclCAT l"
+);
 classes = (
 {
 automatic = 1;
@@ -3499,7 +3505,7 @@ unicode = 010C;
 },
 {
 glyphname = Ccedilla;
-lastChange = "2020-06-10 11:46:12 +0000";
+lastChange = "2020-06-17 13:26:31 +0000";
 layers = (
 {
 anchors = (
@@ -68582,46 +68588,7 @@ width = 10;
 },
 {
 glyphname = periodcentered.loclCAT;
-lastChange = "2020-06-10 11:10:43 +0000";
-layers = (
-{
-components = (
-{
-name = periodcentered;
-transform = "{1, 0, 0, 1, -202, 71}";
-}
-);
-layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
-width = 106;
-},
-{
-components = (
-{
-name = periodcentered;
-transform = "{1, 0, 0, 1, -174, 70}";
-}
-);
-layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 377;
-},
-{
-components = (
-{
-alignment = -1;
-name = periodcentered;
-transform = "{1, 0, 0, 1, -221, 70}";
-}
-);
-layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
-width = 119;
-}
-);
-leftKerningGroup = periodcentered;
-rightKerningGroup = period;
-},
-{
-glyphname = periodcentered.loclCAT.ss01;
-lastChange = "2020-06-10 11:16:15 +0000";
+lastChange = "2020-06-17 16:03:47 +0000";
 layers = (
 {
 components = (
@@ -68653,6 +68620,45 @@ transform = "{1, 0, 0, 1, -189, 70}";
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
 width = 153;
+}
+);
+leftKerningGroup = periodcentered;
+rightKerningGroup = period;
+},
+{
+glyphname = periodcentered.loclCAT.ss01;
+lastChange = "2020-06-17 16:04:04 +0000";
+layers = (
+{
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, -202, 71}";
+}
+);
+layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
+width = 106;
+},
+{
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, -174, 70}";
+}
+);
+layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
+width = 377;
+},
+{
+components = (
+{
+alignment = -1;
+name = periodcentered;
+transform = "{1, 0, 0, 1, -221, 70}";
+}
+);
+layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
+width = 119;
 }
 );
 leftKerningGroup = periodcentered;
@@ -82415,7 +82421,7 @@ unicode = 0326;
 },
 {
 glyphname = cedillacomb;
-lastChange = "2020-06-04 20:13:15 +0000";
+lastChange = "2020-06-17 13:26:51 +0000";
 layers = (
 {
 anchors = (
