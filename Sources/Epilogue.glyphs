@@ -1,8 +1,5 @@
 {
 .appVersion = "1339";
-DisplayStrings = (
-"/i.ss01.sc/ogonekcomb.case/racute.sc"
-);
 classes = (
 {
 automatic = 1;
@@ -72353,7 +72350,7 @@ unicode = 00A4;
 },
 {
 glyphname = dollar;
-lastChange = "2020-06-09 18:55:45 +0000";
+lastChange = "2020-06-17 13:04:42 +0000";
 layers = (
 {
 components = (
@@ -72380,7 +72377,7 @@ width = 1007;
 components = (
 {
 name = s;
-transform = "{1, 0, 0, 1, 32, 219}";
+transform = "{1, 0, 0, 1, 25, 219}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -72388,10 +72385,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"525 0 LINE",
-"670 0 LINE",
-"670 1475 LINE",
-"525 1475 LINE"
+"518 0 LINE",
+"663 0 LINE",
+"663 1475 LINE",
+"518 1475 LINE"
 );
 }
 );
@@ -72402,7 +72399,7 @@ components = (
 {
 alignment = -1;
 name = s;
-transform = "{1, 0, 0, 1, -11, 219}";
+transform = "{1, 0, 0, 1, -1, 219}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
@@ -72410,10 +72407,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"485 0 LINE",
-"604 0 LINE",
-"604 1475 LINE",
-"485 1475 LINE"
+"495 0 LINE",
+"614 0 LINE",
+"614 1475 LINE",
+"495 1475 LINE"
 );
 }
 );
