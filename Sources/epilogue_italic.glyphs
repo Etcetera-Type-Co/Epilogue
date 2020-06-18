@@ -1,7 +1,7 @@
 {
 .appVersion = "1340";
 DisplayStrings = (
-x
+HHLZHHZJHHKOH
 );
 classes = (
 {
@@ -7944,7 +7944,7 @@ unicode = 0128;
 },
 {
 glyphname = J;
-lastChange = "2020-06-18 13:00:49 +0000";
+lastChange = "2020-06-18 14:22:14 +0000";
 layers = (
 {
 anchors = (
@@ -9886,7 +9886,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2020-06-18 13:53:10 +0000";
+lastChange = "2020-06-18 14:22:08 +0000";
 layers = (
 {
 anchors = (
@@ -17761,7 +17761,7 @@ unicode = 1EF8;
 },
 {
 glyphname = Z;
-lastChange = "2020-06-18 13:00:57 +0000";
+lastChange = "2020-06-18 14:22:16 +0000";
 layers = (
 {
 anchors = (
@@ -88441,7 +88441,7 @@ kerning = {
 "@MMK_R_j" = -60;
 };
 "@MMK_L_K" = {
-"@MMK_R_O" = -150;
+"@MMK_R_O" = -140;
 "@MMK_R_S" = -80;
 "@MMK_R_Y" = -50;
 "@MMK_R_g" = -70;
@@ -88459,6 +88459,7 @@ kerning = {
 "@MMK_R_U" = -80;
 "@MMK_R_V" = -200;
 "@MMK_R_Y" = -230;
+"@MMK_R_Z" = -60;
 "@MMK_R_hyphen" = -150;
 "@MMK_R_hyphencase" = -150;
 "@MMK_R_quote" = -200;
@@ -88567,6 +88568,7 @@ kerning = {
 "@MMK_R_z" = -120;
 };
 "@MMK_L_Z" = {
+"@MMK_R_J" = -80;
 "@MMK_R_O" = -100;
 "@MMK_R_hyphen" = -150;
 "@MMK_R_hyphencase" = -150;
@@ -88802,7 +88804,7 @@ kerning = {
 "@MMK_R_j" = -49;
 };
 "@MMK_L_K" = {
-"@MMK_R_O" = -150;
+"@MMK_R_O" = -140;
 "@MMK_R_S" = -90;
 "@MMK_R_Y" = -50;
 "@MMK_R_g" = -55;
@@ -88820,6 +88822,7 @@ kerning = {
 "@MMK_R_U" = -61;
 "@MMK_R_V" = -181;
 "@MMK_R_Y" = -249;
+"@MMK_R_Z" = -70;
 "@MMK_R_hyphen" = -131;
 "@MMK_R_hyphencase" = -150;
 "@MMK_R_quote" = -181;
@@ -88929,6 +88932,7 @@ kerning = {
 "@MMK_R_z" = -113;
 };
 "@MMK_L_Z" = {
+"@MMK_R_J" = -60;
 "@MMK_R_O" = -81;
 "@MMK_R_hyphen" = -150;
 "@MMK_R_hyphencase" = -120;
@@ -89198,6 +89202,7 @@ kerning = {
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -150;
 "@MMK_R_Y" = -280;
+"@MMK_R_Z" = -30;
 "@MMK_R_hyphen" = -100;
 "@MMK_R_hyphencase" = -100;
 "@MMK_R_quote" = -150;
@@ -89308,6 +89313,7 @@ kerning = {
 "@MMK_R_z" = -100;
 };
 "@MMK_L_Z" = {
+"@MMK_R_J" = -40;
 "@MMK_R_O" = -50;
 "@MMK_R_hyphen" = -100;
 "@MMK_R_hyphencase" = -100;
