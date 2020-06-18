@@ -1,8 +1,5 @@
 {
 .appVersion = "1340";
-DisplayStrings = (
-"/OE/oe/oe.sc \012ææ/ae.sc Æ/AEacute \012/zero.zero/zero.zero.lf/zero.zero.tf"
-);
 classes = (
 {
 automatic = 1;
@@ -22417,7 +22414,7 @@ unicode = 010B;
 },
 {
 glyphname = d;
-lastChange = "2020-06-18 11:47:00 +0000";
+lastChange = "2020-06-18 14:34:32 +0000";
 layers = (
 {
 anchors = (
@@ -22557,7 +22554,7 @@ nodes = (
 );
 }
 );
-width = 1360;
+width = 1361;
 },
 {
 anchors = (
@@ -22959,7 +22956,7 @@ unicode = 0111;
 },
 {
 glyphname = ddotbelow;
-lastChange = "2020-06-10 18:23:16 +0000";
+lastChange = "2020-06-18 14:35:03 +0000";
 layers = (
 {
 components = (
@@ -22985,7 +22982,7 @@ transform = "{1, 0, 0, 1, 494, -19}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 1360;
+width = 1361;
 },
 {
 components = (
@@ -23007,7 +23004,7 @@ unicode = 1E0D;
 },
 {
 glyphname = dlinebelow;
-lastChange = "2020-06-10 18:23:16 +0000";
+lastChange = "2020-06-18 14:35:03 +0000";
 layers = (
 {
 components = (
@@ -23033,7 +23030,7 @@ transform = "{1, 0, 0, 1, 290, -19}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 1360;
+width = 1361;
 },
 {
 components = (
@@ -23055,7 +23052,7 @@ unicode = 1E0F;
 },
 {
 glyphname = dzcaron;
-lastChange = "2020-06-10 18:23:16 +0000";
+lastChange = "2020-06-18 14:35:03 +0000";
 layers = (
 {
 components = (
@@ -23081,15 +23078,15 @@ name = d;
 },
 {
 name = z;
-transform = "{1, 0, 0, 1, 1360, 0}";
+transform = "{1, 0, 0, 1, 1361, 0}";
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 1392, 0}";
+transform = "{1, 0, 0, 1, 1393, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
-width = 2429;
+width = 2430;
 },
 {
 components = (
