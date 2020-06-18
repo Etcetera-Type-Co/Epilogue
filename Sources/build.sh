@@ -1,17 +1,11 @@
 #!/bin/sh
 set -e
 
-
-
 mkdir -p ./fonts ./fonts/static/ttf ./fonts/static/otf ./fonts/variable
-
 
 echo "Generating VFs"
 fontmake -g Sources/epilogue.glyphs -o variable --output-path ./fonts/variable/Epilogue[wght].ttf
 fontmake -g Sources/epilogue_italic.glyphs -o variable --output-path ./fonts/variable/Epilogue-Italic[wght].ttf
-
-
-
 
 echo "Post processing VFs"
 for ttf in ./fonts/variable/*.ttf
@@ -22,20 +16,17 @@ do
 	gftools fix-unwanted-tables --tables MVAR $ttf
 	gftools fix-vf-meta $ttf;
 	mv "$ttf.fix" $ttf;
-
 done
-
 
 rm ./fonts/variable/*gasp*
 
 
 echo "Generating Static fonts"
-fontmake -g Sources/epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
-fontmake -g Sources/epilogue_italic.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
+fontmake -g Sources/epilogue.glyphs -o ttf --output-dir ./fonts/static/ttf/
+fontmake -g Sources/epilogue_italic.glyphs -o ttf --output-dir ./fonts/static/ttf/
 
-fontmake -g Sources/epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
-fontmake -g Sources/epilogue_italic.glyphs -i -o otf --output-dir ./fonts/static/otf/
-
+fontmake -g Sources/epilogue.glyphs -o otf --output-dir ./fonts/static/otf/
+fontmake -g Sources/epilogue_italic.glyphs -o otf --output-dir ./fonts/static/otf/
 
 
 echo "Post processing TTFs"
@@ -49,13 +40,13 @@ do
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 done
 
+
 echo "Post processing OTFs"
 otfs=$(ls ./fonts/static/otf/*.otf)
 for otf in $otfs
 do
 	gftools fix-dsig -f $otf
 done
-
 
 
 echo "Building webfonts"
@@ -69,7 +60,7 @@ woff2s=$(ls ./fonts/static/*/*.woff2)
 for woff2 in $woff2s; do
     mv $woff2 ./fonts/web/woff2/$(basename $woff2)
 done
-#########
+
 rm -rf ./fonts/web/woff
 ttfs=$(ls ./fonts/static/ttf/*.ttf)
 for ttf in $ttfs; do
@@ -82,11 +73,12 @@ for woff in $woffs; do
     mv $woff ./fonts/web/woff/$(basename $woff)
 done
 
-
-
 rm -rf master_ufo/ instance_ufo/
 
-
+echo "Run FontBakery on statics"
+gftools qa -f ./fonts/static/ttf/*.ttf --fontbakery -o ~/Desktop/epilogue-report-statics
+echo "Run FontBakery on variable"
+gftools qa -f ./fonts/variable/*.ttf --fontbakery -o ~/Desktop/epilogue-report-variable
 
 
 echo "Complete!"

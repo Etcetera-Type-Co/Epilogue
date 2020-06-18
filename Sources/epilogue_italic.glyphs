@@ -88249,12 +88249,6 @@ width = 1200;
 );
 instances = (
 {
-customParameters = (
-{
-name = weightClass;
-value = 250;
-}
-);
 interpolationCustom = 1;
 instanceInterpolations = {
 "2503C51C-5A6C-4B2C-A968-78FEA18C2585" = 1;
@@ -88265,12 +88259,6 @@ name = "Thin Italic";
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 275;
-}
-);
 interpolationCustom = 1;
 interpolationWeight = 200;
 interpolationWidth = 200;
