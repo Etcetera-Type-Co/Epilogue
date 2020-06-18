@@ -1,7 +1,7 @@
 {
 .appVersion = "1340";
 DisplayStrings = (
-"OÓ/Obreve/Ocaron Ô/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/Odblgrave Ö/Odieresismacron/Odotaccentmacron/Odotbelow Ò/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde/Ohungarumlaut/Oinvertedbreve/Omacron/Omacronacute/Omacrongrave/Oogonek Ø/Oslashacute Õ/Otildeacute/Otildedieresis/Otildemacron/oacute.sc/obreve.sc/ocaron.sc/ocircumflex.sc/circumflexcomb_acutecomb.case/ocircumflexacute.sc/ocircumflexdotbelow.sc/ocircumflexgrave.sc/ocircumflexhookabove.sc/ocircumflextilde.sc/odblgrave.sc/odieresis.sc/odieresismacron.sc/odotaccentmacron.sc/odotbelow.sc/ograve.sc/ohookabove.sc/ohorn.sc/ohornacute.sc/ohorndotbelow.sc/ohorngrave.sc/ohornhookabove.sc/ohorntilde.sc/ohungarumlaut.sc/oinvertedbreve.sc/omacron.sc/omacronacute.sc/omacrongrave.sc/oogonek.sc/oslash.sc/oslashacute.sc/otilde.sc/otildeacute.sc/otildedieresis.sc/otildemacron.sc"
+"/dcaron v/lcaron v/lcaron.ss01 v/Lcaron/lcaron.sc"
 );
 classes = (
 {
@@ -27870,7 +27870,7 @@ unicode = 013A;
 },
 {
 glyphname = lcaron;
-lastChange = "2020-06-10 18:26:46 +0000";
+lastChange = "2020-06-18 11:39:45 +0000";
 layers = (
 {
 components = (
@@ -27919,7 +27919,7 @@ width = 814;
 }
 );
 leftKerningGroup = h;
-rightKerningGroup = caron;
+rightKerningGroup = dcaron;
 unicode = 013E;
 },
 {
@@ -40179,7 +40179,7 @@ rightKerningGroup = l.ss01;
 {
 color = 3;
 glyphname = lcaron.ss01;
-lastChange = "2020-06-10 18:26:20 +0000";
+lastChange = "2020-06-18 11:39:49 +0000";
 layers = (
 {
 components = (
