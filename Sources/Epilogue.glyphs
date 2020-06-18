@@ -42809,7 +42809,7 @@ rightKerningGroup = A;
 },
 {
 glyphname = ae.sc;
-lastChange = "2020-06-10 11:30:39 +0000";
+lastChange = "2020-06-18 15:00:30 +0000";
 layers = (
 {
 anchors = (
@@ -42819,7 +42819,7 @@ position = "{781, 0}";
 },
 {
 name = top;
-position = "{798, 1180}";
+position = "{892, 1180}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -42871,7 +42871,7 @@ position = "{922, 0}";
 },
 {
 name = top;
-position = "{922, 1180}";
+position = "{1166, 1180}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -42924,7 +42924,7 @@ position = "{834, 0}";
 },
 {
 name = top;
-position = "{845, 1180}";
+position = "{999, 1180}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
@@ -42973,7 +42973,7 @@ source = AE;
 },
 {
 glyphname = aeacute.sc;
-lastChange = "2020-06-04 17:01:24 +0000";
+lastChange = "2020-06-18 15:00:30 +0000";
 layers = (
 {
 components = (
@@ -42982,7 +42982,7 @@ name = ae.sc;
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 598, -295}";
+transform = "{1, 0, 0, 1, 692, -295}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -42995,7 +42995,7 @@ name = ae.sc;
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 693, -295}";
+transform = "{1, 0, 0, 1, 937, -295}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
@@ -43008,7 +43008,7 @@ name = ae.sc;
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 642, -295}";
+transform = "{1, 0, 0, 1, 796, -295}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";

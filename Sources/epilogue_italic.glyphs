@@ -1,8 +1,5 @@
 {
 .appVersion = "1340";
-DisplayStrings = (
-"/upArrow/northEastArrow/rightArrow/southEastArrow/downArrow/southWestArrow/leftArrow/northWestArrow/leftRightArrow/upDownArrow"
-);
 classes = (
 {
 automatic = 1;
