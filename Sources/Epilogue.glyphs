@@ -1,7 +1,7 @@
 {
 .appVersion = "1340";
 DisplayStrings = (
-"/dcaron \012/l.ss01/lcaron.ss01 z/l.ss01 oll"
+"/dcaron \012HH/Ohorn yKK"
 );
 classes = (
 {
@@ -1323,7 +1323,7 @@ xHeight = 1062;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2020-06-17 09:43:00 +0000";
+lastChange = "2020-06-18 13:02:11 +0000";
 layers = (
 {
 anchors = (
@@ -17172,7 +17172,7 @@ unicode = 1E80;
 },
 {
 glyphname = X;
-lastChange = "2020-06-10 13:44:29 +0000";
+lastChange = "2020-06-18 13:50:44 +0000";
 layers = (
 {
 anchors = (
@@ -17293,7 +17293,7 @@ unicode = 0058;
 },
 {
 glyphname = Y;
-lastChange = "2020-06-10 13:44:32 +0000";
+lastChange = "2020-06-18 13:50:46 +0000";
 layers = (
 {
 anchors = (
@@ -89717,13 +89717,14 @@ kerning = {
 "@MMK_R_quote" = -20;
 };
 "@MMK_L_Ohorn" = {
+"@MMK_R_A" = -50;
 "@MMK_R_J" = -30;
 "@MMK_R_O" = -10;
 "@MMK_R_S" = -10;
 "@MMK_R_T" = -30;
 "@MMK_R_V" = -40;
-"@MMK_R_X" = -100;
-"@MMK_R_Y" = -70;
+"@MMK_R_X" = -80;
+"@MMK_R_Y" = -60;
 "@MMK_R_Z" = -60;
 "@MMK_R_g" = -10;
 "@MMK_R_o" = -20;
