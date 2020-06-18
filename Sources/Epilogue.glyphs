@@ -1,7 +1,7 @@
 {
 .appVersion = "1340";
 DisplayStrings = (
-"/dcaron \012HH/Ohorn yKK"
+"/OE/oe/oe.sc \012ææ/ae.sc Æ/AEacute \012/zero.zero/zero.zero.lf/zero.zero.tf"
 );
 classes = (
 {
@@ -61317,7 +61317,7 @@ unicode = 0039;
 },
 {
 glyphname = zero.zero;
-lastChange = "2020-05-30 15:55:58 +0000";
+lastChange = "2020-06-18 14:18:04 +0000";
 layers = (
 {
 components = (
@@ -61868,37 +61868,70 @@ width = 1094;
 },
 {
 glyphname = zero.zero.tf;
-lastChange = "2020-05-30 15:55:58 +0000";
+lastChange = "2020-06-18 14:19:14 +0000";
 layers = (
 {
 components = (
 {
-name = zero.zero;
+name = zero;
 transform = "{1, 0, 0, 1, -32, 0}";
 }
 );
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
+paths = (
+{
+closed = 1;
+nodes = (
+"181 388 LINE",
+"848 1055 LINE",
+"828 1074 LINE",
+"161 407 LINE"
+);
+}
+);
 width = 1000;
 },
 {
 components = (
 {
-name = zero.zero;
+name = zero;
 transform = "{1, 0, 0, 1, 17, 0}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
+paths = (
+{
+closed = 1;
+nodes = (
+"338 297 LINE",
+"1048 1007 LINE",
+"894 1161 LINE",
+"184 451 LINE"
+);
+}
+);
 width = 1250;
 },
 {
 components = (
 {
 alignment = -1;
-name = zero.zero;
+name = zero;
 transform = "{1, 0, 0, 1, -14, 0}";
 }
 );
 layerId = "F6BDCC95-B00C-46EE-8A70-124DE74BF6E5";
+paths = (
+{
+closed = 1;
+nodes = (
+"247 354 LINE",
+"930 1037 LINE",
+"859 1107 LINE",
+"176 424 LINE"
+);
+}
+);
 width = 1094;
 }
 );
