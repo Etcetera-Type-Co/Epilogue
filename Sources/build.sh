@@ -22,11 +22,11 @@ rm ./fonts/variable/*gasp*
 
 
 echo "Generating Static fonts"
-fontmake -g Sources/epilogue.glyphs -o ttf --output-dir ./fonts/static/ttf/
-fontmake -g Sources/epilogue_italic.glyphs -o ttf --output-dir ./fonts/static/ttf/
+fontmake -g Sources/epilogue.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
+fontmake -g Sources/epilogue_italic.glyphs -i -o ttf --output-dir ./fonts/static/ttf/
 
-fontmake -g Sources/epilogue.glyphs -o otf --output-dir ./fonts/static/otf/
-fontmake -g Sources/epilogue_italic.glyphs -o otf --output-dir ./fonts/static/otf/
+fontmake -g Sources/epilogue.glyphs -i -o otf --output-dir ./fonts/static/otf/
+fontmake -g Sources/epilogue_italic.glyphs -i -o otf --output-dir ./fonts/static/otf/
 
 
 echo "Post processing TTFs"
@@ -74,11 +74,5 @@ for woff in $woffs; do
 done
 
 rm -rf master_ufo/ instance_ufo/
-
-echo "Run FontBakery on statics"
-gftools qa -f ./fonts/static/ttf/*.ttf --fontbakery -o ~/Desktop/epilogue-report-statics
-echo "Run FontBakery on variable"
-gftools qa -f ./fonts/variable/*.ttf --fontbakery -o ~/Desktop/epilogue-report-variable
-
 
 echo "Complete!"

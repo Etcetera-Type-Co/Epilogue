@@ -1,4 +1,4 @@
-gftools https://github.com/googlefonts/gftools
+ gftools https://github.com/googlefonts/gftools
 fontmake https://github.com/googlefonts/fontmake
 ttfautohint https://www.freetype.org/ttfautohint/
 statmake https://github.com/daltonmaag/statmake
