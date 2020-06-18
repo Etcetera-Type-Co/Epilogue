@@ -1,7 +1,7 @@
 {
 .appVersion = "1340";
 DisplayStrings = (
-"/OE/oe/oe.sc \012ææ/ae.sc Æ/AEacute \012/zero.zero/zero.zero.lf/zero.zero.tf"
+x
 );
 classes = (
 {
@@ -36458,7 +36458,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2020-06-18 13:54:37 +0000";
+lastChange = "2020-06-18 14:20:46 +0000";
 layers = (
 {
 anchors = (
@@ -36478,11 +36478,11 @@ closed = 1;
 nodes = (
 "-109 0 LINE",
 "354 0 LINE",
-"750 476 LINE",
-"473 476 LINE",
+"715 433 LINE",
+"509 401 LINE",
 "699 0 LINE",
 "1115 0 LINE",
-"747 670 LINE",
+"803 569 LINE",
 "752 401 LINE",
 "1353 1062 LINE",
 "899 1062 LINE",
@@ -36524,10 +36524,10 @@ nodes = (
 "972 1062 LINE",
 "933 1062 LINE",
 "467 544 LINE",
-"484 543 LINE",
+"481 549 LINE",
 "228 1062 LINE",
 "196 1062 LINE",
-"462 516 LINE",
+"457 527 LINE",
 "463 546 LINE"
 );
 }
@@ -36552,19 +36552,19 @@ closed = 1;
 nodes = (
 "-72 0 LINE",
 "121 0 LINE",
-"593 496 LINE",
+"552 453 LINE",
 "467 506 LINE",
 "718 0 LINE",
 "905 0 LINE",
-"609 596 LINE",
+"628 558 LINE",
 "582 486 LINE",
 "1123 1062 LINE",
 "930 1062 LINE",
-"484 575 LINE",
+"521 615 LINE",
 "618 565 LINE",
 "364 1062 LINE",
 "178 1062 LINE",
-"478 484 LINE",
+"460 519 LINE",
 "495 583 LINE"
 );
 }
