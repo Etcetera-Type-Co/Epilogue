@@ -16,6 +16,8 @@ do
 	gftools fix-unwanted-tables --tables MVAR $ttf
 	gftools fix-vf-meta $ttf;
 	mv "$ttf.fix" $ttf;
+	woff2_compress $ttf
+
 done
 
 rm ./fonts/variable/*gasp*
