@@ -47,7 +47,9 @@ echo "Post processing OTFs"
 otfs=$(ls ./fonts/static/otf/*.otf)
 for otf in $otfs
 do
-	gftools fix-dsig -f $otf
+	gftools fix-dsig --autofix $otf
+	gftools fix-weightclass $otf
+	[ -f $otf.fix ] && mv $otf.fix $otf
 done
 
 
