@@ -1,8 +1,5 @@
 {
 .appVersion = "1340";
-DisplayStrings = (
-"g/g.ss01"
-);
 classes = (
 {
 automatic = 1;
@@ -68,7 +65,7 @@ name = blueShift;
 value = 7;
 }
 );
-date = "2020-06-23 14:55:59 +0000";
+date = "2020-06-25 13:24:11 +0000";
 designer = "Tyler Finck";
 designerURL = "https://www.madebytyler.com";
 familyName = Epilogue;
@@ -49893,7 +49890,7 @@ rightKerningGroup = H;
 },
 {
 glyphname = eng.sc;
-lastChange = "2020-06-22 01:19:25 +0000";
+lastChange = "2020-06-25 13:21:30 +0000";
 layers = (
 {
 anchors = (
@@ -49912,7 +49909,7 @@ paths = (
 closed = 1;
 nodes = (
 "920 -456 OFFCURVE",
-"1142 -363 OFFCURVE",
+"1141 -363 OFFCURVE",
 "1214 -19 CURVE SMOOTH",
 "1468 1180 LINE",
 "1086 1180 LINE",
@@ -49927,7 +49924,7 @@ nodes = (
 "631 0 LINE",
 "820 0 LINE",
 "814 -28 LINE SMOOTH",
-"788 -146 OFFCURVE",
+"789 -146 OFFCURVE",
 "665 -169 OFFCURVE",
 "548 -169 CURVE",
 "487 -456 LINE"
@@ -49961,7 +49958,7 @@ paths = (
 closed = 1;
 nodes = (
 "676 -457 OFFCURVE",
-"753 -255 OFFCURVE",
+"752 -255 OFFCURVE",
 "786 -96 CURVE SMOOTH",
 "1058 1180 LINE",
 "1026 1180 LINE",
@@ -50014,7 +50011,7 @@ nodes = (
 "1199 1180 LINE",
 "1036 1180 LINE",
 "796 50 LINE",
-"832 51 LINE",
+"832 50 LINE",
 "532 1180 LINE",
 "267 1180 LINE",
 "17 0 LINE",
@@ -50024,7 +50021,7 @@ nodes = (
 "681 0 LINE",
 "780 0 LINE",
 "765 -71 LINE SMOOTH",
-"738 -195 OFFCURVE",
+"739 -195 OFFCURVE",
 "657 -312 OFFCURVE",
 "468 -312 CURVE",
 "436 -457 LINE"
@@ -59146,7 +59143,7 @@ rightKerningGroup = Z;
 },
 {
 glyphname = ordfeminine;
-lastChange = "2020-06-22 01:19:25 +0000";
+lastChange = "2020-06-25 13:22:17 +0000";
 layers = (
 {
 layerId = "2503C51C-5A6C-4B2C-A968-78FEA18C2585";
@@ -59278,8 +59275,8 @@ nodes = (
 "576 1293 OFFCURVE",
 "479 1284 CURVE SMOOTH",
 "356 1273 OFFCURVE",
-"226 1228 OFFCURVE",
-"226 1110 CURVE SMOOTH",
+"226 1238 OFFCURVE",
+"226 1130 CURVE SMOOTH",
 "226 1045 OFFCURVE",
 "295 1015 OFFCURVE",
 "391 1015 CURVE SMOOTH"
@@ -65918,7 +65915,7 @@ unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2020-06-23 14:55:07 +0000";
+lastChange = "2020-06-25 13:21:55 +0000";
 layers = (
 {
 components = (
@@ -65980,7 +65977,7 @@ unicode = 00BD;
 },
 {
 glyphname = onequarter;
-lastChange = "2020-06-23 14:55:07 +0000";
+lastChange = "2020-06-25 13:21:55 +0000";
 layers = (
 {
 components = (
@@ -66042,7 +66039,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2020-06-23 14:55:07 +0000";
+lastChange = "2020-06-25 13:21:55 +0000";
 layers = (
 {
 components = (
@@ -66104,7 +66101,7 @@ unicode = 00BE;
 },
 {
 glyphname = oneeighth;
-lastChange = "2020-06-23 14:55:07 +0000";
+lastChange = "2020-06-25 13:21:55 +0000";
 layers = (
 {
 components = (
@@ -66164,7 +66161,7 @@ unicode = 215B;
 },
 {
 glyphname = threeeighths;
-lastChange = "2020-06-23 14:55:07 +0000";
+lastChange = "2020-06-25 13:21:55 +0000";
 layers = (
 {
 components = (
@@ -66224,7 +66221,7 @@ unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2020-06-23 14:55:07 +0000";
+lastChange = "2020-06-25 13:21:55 +0000";
 layers = (
 {
 components = (
@@ -66284,7 +66281,7 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2020-06-23 14:55:07 +0000";
+lastChange = "2020-06-25 13:21:55 +0000";
 layers = (
 {
 components = (
@@ -70772,7 +70769,7 @@ unicode = 203A;
 },
 {
 glyphname = quotedbl;
-lastChange = "2020-05-30 15:55:58 +0000";
+lastChange = "2020-06-25 13:20:45 +0000";
 layers = (
 {
 layerId = "3FDD6C00-F7FD-4E85-84B0-0136AF7D7529";
@@ -70780,19 +70777,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"285 1475 LINE",
-"222 939 LINE",
-"438 939 LINE",
-"575 1475 LINE"
+"296 1475 LINE",
+"205 919 LINE",
+"421 919 LINE",
+"566 1475 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"692 1475 LINE",
-"629 939 LINE",
-"844 939 LINE",
-"981 1475 LINE"
+"708 1475 LINE",
+"617 919 LINE",
+"832 919 LINE",
+"978 1475 LINE"
 );
 }
 );
@@ -70804,19 +70801,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"359 1475 LINE",
-"313 1202 LINE",
-"344 1202 LINE",
-"412 1475 LINE"
+"356 1475 LINE",
+"299 1142 LINE",
+"330 1142 LINE",
+"414 1475 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"586 1475 LINE",
-"540 1202 LINE",
-"571 1202 LINE",
-"639 1475 LINE"
+"590 1475 LINE",
+"533 1142 LINE",
+"564 1142 LINE",
+"648 1475 LINE"
 );
 }
 );
@@ -70829,18 +70826,18 @@ paths = (
 closed = 1;
 nodes = (
 "331 1475 LINE",
-"279 1103 LINE",
-"379 1103 LINE",
-"473 1475 LINE"
+"264 1063 LINE",
+"364 1063 LINE",
+"474 1475 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"626 1475 LINE",
-"573 1103 LINE",
-"673 1103 LINE",
-"767 1475 LINE"
+"632 1475 LINE",
+"565 1063 LINE",
+"665 1063 LINE",
+"774 1475 LINE"
 );
 }
 );
@@ -70854,7 +70851,7 @@ unicode = 0022;
 },
 {
 glyphname = quotesingle;
-lastChange = "2020-06-02 00:32:13 +0000";
+lastChange = "2020-06-25 13:20:28 +0000";
 layers = (
 {
 layerId = "3FDD6C00-F7FD-4E85-84B0-0136AF7D7529";
@@ -70862,10 +70859,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"239 1475 LINE",
-"192 939 LINE",
-"410 939 LINE",
-"537 1475 LINE"
+"256 1475 LINE",
+"167 919 LINE",
+"386 919 LINE",
+"534 1475 LINE"
 );
 }
 );
@@ -70878,8 +70875,8 @@ paths = (
 closed = 1;
 nodes = (
 "302 1475 LINE",
-"262 1202 LINE",
-"295 1202 LINE",
+"245 1142 LINE",
+"278 1142 LINE",
 "363 1475 LINE"
 );
 }
@@ -70892,10 +70889,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"278 1475 LINE",
-"236 1103 LINE",
-"338 1103 LINE",
-"428 1475 LINE"
+"283 1475 LINE",
+"218 1063 LINE",
+"321 1063 LINE",
+"433 1475 LINE"
 );
 }
 );
@@ -89428,5 +89425,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 2;
-versionMinor = 110;
+versionMinor = 111;
 }

@@ -65,7 +65,7 @@ name = vendorID;
 value = ETCO;
 }
 );
-date = "2020-06-22 16:26:28 +0000";
+date = "2020-06-25 13:24:19 +0000";
 designer = "Tyler Finck";
 designerURL = "https://www.madebytyler.com";
 familyName = Epilogue;
@@ -59295,7 +59295,7 @@ rightKerningGroup = Z;
 },
 {
 glyphname = ordfeminine;
-lastChange = "2020-06-22 01:19:52 +0000";
+lastChange = "2020-06-25 13:22:29 +0000";
 layers = (
 {
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -59427,9 +59427,9 @@ nodes = (
 "414 1293 OFFCURVE",
 "319 1284 CURVE SMOOTH",
 "214 1274 OFFCURVE",
-"100 1239 OFFCURVE",
-"100 1138 CURVE SMOOTH",
-"100 1053 OFFCURVE",
+"100 1249 OFFCURVE",
+"100 1148 CURVE SMOOTH",
+"100 1063 OFFCURVE",
 "170 1015 OFFCURVE",
 "278 1015 CURVE SMOOTH"
 );
@@ -70992,7 +70992,7 @@ unicode = 203A;
 },
 {
 glyphname = quotedbl;
-lastChange = "2020-05-30 15:55:58 +0000";
+lastChange = "2020-06-25 13:20:36 +0000";
 layers = (
 {
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -71000,19 +71000,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"156 1475 LINE",
-"167 1202 LINE",
-"198 1202 LINE",
-"210 1475 LINE"
+"154 1475 LINE",
+"167 1142 LINE",
+"198 1142 LINE",
+"212 1475 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"390 1475 LINE",
-"401 1202 LINE",
-"432 1202 LINE",
-"444 1475 LINE"
+"388 1475 LINE",
+"401 1142 LINE",
+"432 1142 LINE",
+"446 1475 LINE"
 );
 }
 );
@@ -71024,19 +71024,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"84 1475 LINE",
-"121 939 LINE",
-"337 939 LINE",
-"374 1475 LINE"
+"94 1475 LINE",
+"121 919 LINE",
+"337 919 LINE",
+"364 1475 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"496 1475 LINE",
-"533 939 LINE",
-"748 939 LINE",
-"786 1475 LINE"
+"506 1475 LINE",
+"533 919 LINE",
+"748 919 LINE",
+"776 1475 LINE"
 );
 }
 );
@@ -71049,8 +71049,8 @@ paths = (
 closed = 1;
 nodes = (
 "129 1475 LINE",
-"150 1103 LINE",
-"250 1103 LINE",
+"150 1063 LINE",
+"250 1063 LINE",
 "272 1475 LINE"
 );
 },
@@ -71058,8 +71058,8 @@ nodes = (
 closed = 1;
 nodes = (
 "430 1475 LINE",
-"451 1103 LINE",
-"551 1103 LINE",
+"451 1063 LINE",
+"551 1063 LINE",
 "572 1475 LINE"
 );
 }
@@ -71074,7 +71074,7 @@ unicode = 0022;
 },
 {
 glyphname = quotesingle;
-lastChange = "2020-06-02 00:32:13 +0000";
+lastChange = "2020-06-25 13:20:19 +0000";
 layers = (
 {
 layerId = "A1A0948C-E637-4A65-8CCC-05505AD98C44";
@@ -71083,8 +71083,8 @@ paths = (
 closed = 1;
 nodes = (
 "100 1475 LINE",
-"113 1202 LINE",
-"146 1202 LINE",
+"113 1142 LINE",
+"146 1142 LINE",
 "161 1475 LINE"
 );
 }
@@ -71097,10 +71097,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"44 1475 LINE",
-"83 939 LINE",
-"302 939 LINE",
-"342 1475 LINE"
+"54 1475 LINE",
+"83 919 LINE",
+"302 919 LINE",
+"332 1475 LINE"
 );
 }
 );
@@ -71113,8 +71113,8 @@ paths = (
 closed = 1;
 nodes = (
 "79 1475 LINE",
-"102 1103 LINE",
-"205 1103 LINE",
+"102 1063 LINE",
+"205 1063 LINE",
 "229 1475 LINE"
 );
 }
@@ -88520,9 +88520,9 @@ kerning = {
 "@MMK_R_Z" = -70;
 "@MMK_R_hyphen" = -150;
 "@MMK_R_hyphencase" = -150;
+"@MMK_R_quote" = 0;
 "@MMK_R_v" = -130;
 "@MMK_R_y" = -120;
-"@MMK_R_quote" = 0;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -70;
@@ -89698,5 +89698,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 2;
-versionMinor = 110;
+versionMinor = 111;
 }
