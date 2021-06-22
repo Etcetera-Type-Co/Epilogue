@@ -1,5 +1,5 @@
 {
-.appVersion = "1340";
+.appVersion = "1349";
 classes = (
 {
 automatic = 1;
@@ -1105,7 +1105,7 @@ alignmentZones = (
 );
 ascender = 1563;
 capHeight = 1475;
-custom = Thin;
+custom = "Thin Italic";
 customValue = 1;
 customParameters = (
 {
@@ -1172,6 +1172,7 @@ alignmentZones = (
 );
 ascender = 1563;
 capHeight = 1475;
+custom = Italic;
 customValue = 1;
 customParameters = (
 {
@@ -1239,7 +1240,7 @@ alignmentZones = (
 );
 ascender = 1563;
 capHeight = 1475;
-custom = Black;
+custom = "Black Italic";
 customValue = 1;
 customParameters = (
 {
@@ -89425,5 +89426,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 2;
-versionMinor = 111;
+versionMinor = 112;
 }
