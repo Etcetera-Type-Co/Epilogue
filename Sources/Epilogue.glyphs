@@ -1,5 +1,5 @@
 {
-.appVersion = "1349";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -88332,6 +88332,12 @@ width = 1200;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 instanceInterpolations = {
 "A1A0948C-E637-4A65-8CCC-05505AD98C44" = 1;
@@ -88340,6 +88346,12 @@ name = Thin;
 weightClass = Thin;
 },
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 interpolationWeight = 200;
 interpolationWidth = 200;
@@ -88351,6 +88363,12 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 interpolationWeight = 300;
 interpolationWidth = 300;
@@ -88362,6 +88380,12 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 interpolationWeight = 400;
 interpolationWidth = 400;
@@ -88371,6 +88395,12 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 interpolationWeight = 500;
 interpolationWidth = 500;
@@ -88382,6 +88412,12 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 interpolationWeight = 600;
 interpolationWidth = 600;
@@ -88393,6 +88429,12 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 interpolationWeight = 700;
 interpolationWidth = 700;
@@ -88405,6 +88447,12 @@ name = Bold;
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 interpolationWeight = 800;
 interpolationWidth = 800;
@@ -88416,6 +88464,12 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
+customParameters = (
+{
+name = "Name Table Entry";
+value = "25; EpilogueRoman";
+}
+);
 interpolationCustom = 1;
 interpolationWeight = 900;
 interpolationWidth = 900;
