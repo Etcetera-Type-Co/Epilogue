@@ -1,6 +1,0 @@
- gftools https://github.com/googlefonts/gftools
-fontmake https://github.com/googlefonts/fontmake
-ttfautohint https://www.freetype.org/ttfautohint/
-statmake https://github.com/daltonmaag/statmake
-woff2 https://github.com/bramstein/homebrew-webfonttools
-woff2sfnt-zopfli https://github.com/bramstein/homebrew-webfonttools
