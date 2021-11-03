@@ -1,5 +1,8 @@
 {
 .appVersion = "3100";
+DisplayStrings = (
+"/Sacutedotaccent"
+);
 classes = (
 {
 automatic = 1;

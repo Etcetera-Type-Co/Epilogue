@@ -1,5 +1,8 @@
 {
 .appVersion = "3100";
+DisplayStrings = (
+"/Sacutedotaccent"
+);
 classes = (
 {
 automatic = 1;
@@ -15020,7 +15023,7 @@ unicode = 015A;
 },
 {
 glyphname = Sacutedotaccent;
-lastChange = "2021-11-03 00:25:10 +0000";
+lastChange = "2021-11-03 00:33:23 +0000";
 layers = (
 {
 components = (
@@ -15046,11 +15049,11 @@ name = S;
 },
 {
 name = acutecomb.case;
-transform = "{0.79491, 0, 0, 0.79491, 467, 303}";
+transform = "{1, 0, 0, 1, 420, 0}";
 },
 {
 name = dotaccentcomb.case;
-transform = "{0.90312, 0, 0, 0.90312, 426, 391}";
+transform = "{0.90312, 0, 0, 0.90312, 426, 455}";
 }
 );
 layerId = "584F9D0D-8480-40C6-ABEA-8DD6EE64252D";
