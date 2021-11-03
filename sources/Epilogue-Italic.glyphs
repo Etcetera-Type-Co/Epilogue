@@ -1,8 +1,5 @@
 {
 .appVersion = "3100";
-DisplayStrings = (
-"/Sacutedotaccent"
-);
 classes = (
 {
 automatic = 1;
@@ -18064,7 +18061,7 @@ unicode = 0168;
 },
 {
 glyphname = Utildeacute;
-lastChange = "2020-06-22 01:21:10 +0000";
+lastChange = "2021-11-03 00:41:18 +0000";
 layers = (
 {
 components = (
@@ -18090,11 +18087,11 @@ name = U;
 },
 {
 name = tildecomb.case;
-transform = "{0.82998, 0, 0, 0.82998, 340, 251}";
+transform = "{1, 0, 0, 1, 223, 0}";
 },
 {
 name = acutecomb.case;
-transform = "{0.68604, 0, 0, 0.68604, 653, 766}";
+transform = "{1, 0, 0, 1, 519, 365}";
 }
 );
 layerId = "3FDD6C00-F7FD-4E85-84B0-0136AF7D7529";
@@ -18107,11 +18104,11 @@ name = U;
 },
 {
 name = tildecomb.case;
-transform = "{0.93624, 0, 0, 0.93624, 266, 94}";
+transform = "{1, 0, 0, 1, 226, 0}";
 },
 {
 name = acutecomb.case;
-transform = "{0.88226, 0, 0, 0.88226, 538, 413}";
+transform = "{1, 0, 0, 1, 491, 256}";
 }
 );
 layerId = "BEF1FBB1-ACEC-4AC1-9895-C09886024D55";
@@ -27239,7 +27236,7 @@ unicode = 0123;
 {
 color = 3;
 glyphname = gcommaaccent.ss01;
-lastChange = "2020-06-22 01:21:10 +0000";
+lastChange = "2021-11-03 00:41:49 +0000";
 layers = (
 {
 components = (
@@ -27248,7 +27245,7 @@ name = g.ss01;
 },
 {
 name = commaturnedabovecomb;
-transform = "{0.85, 0, 0, 0.85, 415, 159}";
+transform = "{1, 0, 0, 1, 365, 0}";
 }
 );
 layerId = "3FDD6C00-F7FD-4E85-84B0-0136AF7D7529";
@@ -27274,7 +27271,7 @@ name = g.ss01;
 },
 {
 name = commaturnedabovecomb;
-transform = "{0.94375, 0, 0, 0.94375, 390, 60}";
+transform = "{1, 0, 0, 1, 372, 0}";
 }
 );
 layerId = "BEF1FBB1-ACEC-4AC1-9895-C09886024D55";
