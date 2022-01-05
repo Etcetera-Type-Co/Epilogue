@@ -1,5 +1,5 @@
 {
-.appVersion = "3100";
+.appVersion = "3108";
 classes = (
 {
 automatic = 1;
@@ -1148,6 +1148,14 @@ name = "Master Icon Glyph Name";
 value = u;
 },
 {
+name = underlineThickness;
+value = 100;
+},
+{
+name = underlinePosition;
+value = -100;
+},
+{
 name = smallCapHeight;
 value = 1180;
 }
@@ -1215,6 +1223,14 @@ value = 0;
 {
 name = "Master Icon Glyph Name";
 value = u;
+},
+{
+name = underlineThickness;
+value = 100;
+},
+{
+name = underlinePosition;
+value = -100;
 },
 {
 name = smallCapHeight;
@@ -1288,6 +1304,14 @@ value = 0;
 {
 name = "Master Icon Glyph Name";
 value = u;
+},
+{
+name = underlineThickness;
+value = 100;
+},
+{
+name = underlinePosition;
+value = -100;
 },
 {
 name = smallCapHeight;
