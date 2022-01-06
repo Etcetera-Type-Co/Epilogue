@@ -1,5 +1,8 @@
 {
-.appVersion = "3100";
+.appVersion = "3109";
+DisplayStrings = (
+epilogue
+);
 classes = (
 {
 automatic = 1;
@@ -1148,6 +1151,14 @@ name = "Master Icon Glyph Name";
 value = u;
 },
 {
+name = underlineThickness;
+value = 24;
+},
+{
+name = underlinePosition;
+value = -480;
+},
+{
 name = smallCapHeight;
 value = 1180;
 }
@@ -1215,6 +1226,14 @@ value = 0;
 {
 name = "Master Icon Glyph Name";
 value = u;
+},
+{
+name = underlineThickness;
+value = 150;
+},
+{
+name = underlinePosition;
+value = -460;
 },
 {
 name = smallCapHeight;
@@ -1288,6 +1307,14 @@ value = 0;
 {
 name = "Master Icon Glyph Name";
 value = u;
+},
+{
+name = underlineThickness;
+value = 300;
+},
+{
+name = underlinePosition;
+value = -400;
 },
 {
 name = smallCapHeight;
@@ -75179,7 +75206,7 @@ unicode = 2260;
 },
 {
 glyphname = notequal.case;
-lastChange = "2020-05-31 00:09:23 +0000";
+lastChange = "2021-11-05 20:20:37 +0000";
 layers = (
 {
 components = (
@@ -75214,10 +75241,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"316 256 LINE",
 "582 256 LINE",
 "1036 1215 LINE",
-"770 1215 LINE",
-"316 256 LINE"
+"770 1215 LINE"
 );
 }
 );
